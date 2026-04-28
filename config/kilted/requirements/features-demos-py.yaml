@@ -1,87 +1,131 @@
 requirements:
-  - name: Topic executables in `demo_nodes_py`
-    labels:
-      - executable
-      - feature
-      - demos-py
-    checks:
-      - name: Check `listener` and `talker`
-        try:
-          - stdin: ros2 run demo_nodes_py talker
-            terminal: 1
-          - stdin: ros2 run demo_nodes_py listener
-            terminal: 2
-      - name: Check `listener` and `talker` QOS
-        try:
-          - stdin: ros2 run demo_nodes_py talker_qos
-            terminal: 1
-          - stdin: ros2 run demo_nodes_py listener_qos
-            terminal: 2
-      - name: Check serialized `listener` and `talker`
-        try:
-          - stdin: ros2 run demo_nodes_py talker
-            terminal: 1
-          - stdin: ros2 run demo_nodes_py listener_serialized
-            terminal: 2
-  - name: Service executables in `demo_nodes_py`
-    labels:
-      - executable
-      - feature
-      - demos-py
-    checks:
-      - name: Add two ints
-        try:
-          - stdin: ros2 run demo_nodes_py add_two_ints_client
-            terminal: 1
-          - stdin: ros2 run demo_nodes_py add_two_ints_server
-            terminal: 2
-      - name: Add two ints async
-        try:
-          - stdin: ros2 run demo_nodes_py add_two_ints_client_async
-            terminal: 1
-          - stdin: ros2 run demo_nodes_py add_two_ints_server
-            terminal: 2
-  - name: Parameter executables in `demo_nodes_py`
-    labels:
-      - executable
-      - feature
-      - demos-py
-    checks:
-      - name: Async parameter client
-        try:
-          - stdin: ros2 run demo_nodes_cpp parameter_blackboard
-            terminal: 1
-          - stdin: ros2 run demo_nodes_py async_param_client
-            terminal: 2
-  - name: Check Lifecyle node py
-    labels:
-      - executable
-      - feature
-      - demos-py
-    links:
-      - name: Lifecycle Py
-        url: https://github.com/ros2/demos/tree/kilted/lifecycle_py
-    checks:
-      - name: Check `listener` and `talker`
-        try:
-          - stdin: ros2 run lifecycle_py lifecycle_talker
-            terminal: 1
-          - stdin: ros2 lifecycle nodes
-            terminal: 2
-          - stdin: ros2 lifecycle set /lc_talker 1
-            terminal: 2
-          - stdin: ros2 lifecycle set /lc_talker 3
-            terminal: 2
-        expect:
-          - stdout: |
-              [INFO] [1680583079.479073069] [lc_talker]: on_configure() is called.
-              [INFO] [1680583080.439717509] [lc_talker]: Lifecycle publisher is inactive. Messages are not published.
-            terminal: 1
-          - stdout: /lc_talker
-            terminal: 2
-          - stdout: Transitioning successful
-            terminal: 2
-          - stdout: |
-              [INFO] [1680583403.113550155] [lc_talker]: on_activate() is called.
-              [INFO] [1680583403.439875193] [lc_talker]: Lifecycle publisher is active. Publishing: [Lifecycle HelloWorld #323]
-            terminal: 2
+- name: Topic executables in `demo_nodes_py`
+  shortname: topic_executables_in_`demo_nodes_py`
+  description: ''
+  steps:
+  - name: Check `listener` and `talker`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run demo_nodes_py talker
+    - !StdIn
+      number: 2
+      text: ros2 run demo_nodes_py listener
+    expect: []
+  - name: Check `listener` and `talker` QOS
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run demo_nodes_py talker_qos
+    - !StdIn
+      number: 2
+      text: ros2 run demo_nodes_py listener_qos
+    expect: []
+  - name: Check serialized `listener` and `talker`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run demo_nodes_py talker
+    - !StdIn
+      number: 2
+      text: ros2 run demo_nodes_py listener_serialized
+    expect: []
+  labels:
+  - executable
+  - feature
+  - demos-py
+  links: null
+- name: Service executables in `demo_nodes_py`
+  shortname: service_executables_in_`demo_nodes_py`
+  description: ''
+  steps:
+  - name: Add two ints
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run demo_nodes_py add_two_ints_client
+    - !StdIn
+      number: 2
+      text: ros2 run demo_nodes_py add_two_ints_server
+    expect: []
+  - name: Add two ints async
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run demo_nodes_py add_two_ints_client_async
+    - !StdIn
+      number: 2
+      text: ros2 run demo_nodes_py add_two_ints_server
+    expect: []
+  labels:
+  - executable
+  - feature
+  - demos-py
+  links: null
+- name: Parameter executables in `demo_nodes_py`
+  shortname: parameter_executables_in_`demo_nodes_py`
+  description: ''
+  steps:
+  - name: Async parameter client
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run demo_nodes_cpp parameter_blackboard
+    - !StdIn
+      number: 2
+      text: ros2 run demo_nodes_py async_param_client
+    expect: []
+  labels:
+  - executable
+  - feature
+  - demos-py
+  links: null
+- name: Check Lifecyle node py
+  shortname: check_lifecyle_node_py
+  description: ''
+  steps:
+  - name: Check `listener` and `talker`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run lifecycle_py lifecycle_talker
+    - !StdIn
+      number: 2
+      text: ros2 lifecycle nodes
+    - !StdIn
+      number: 2
+      text: ros2 lifecycle set /lc_talker 1
+    - !StdIn
+      number: 2
+      text: ros2 lifecycle set /lc_talker 3
+    expect:
+    - !StdOut
+      number: 1
+      text: |
+        [INFO] [1680583079.479073069] [lc_talker]: on_configure() is called.
+        [INFO] [1680583080.439717509] [lc_talker]: Lifecycle publisher is inactive. Messages are not published.
+    - !StdOut
+      number: 2
+      text: /lc_talker
+    - !StdOut
+      number: 2
+      text: Transitioning successful
+    - !StdOut
+      number: 2
+      text: |
+        [INFO] [1680583403.113550155] [lc_talker]: on_activate() is called.
+        [INFO] [1680583403.439875193] [lc_talker]: Lifecycle publisher is active. Publishing: [Lifecycle HelloWorld #323]
+  labels:
+  - executable
+  - feature
+  - demos-py
+  links:
+  - name: Lifecycle Py
+    url: https://github.com/ros2/demos/tree/kilted/lifecycle_py
