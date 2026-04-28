@@ -1,101 +1,9 @@
-- name: Tutorial Party
-  shortname: tutorial_party
-  description: "Tutorial Party generation"
-  sets:
-  # Documentation
-  # This is only being run on one combination since this is testing the documentation
-  # and the functionality seen in the documentation will be tested on several other
-  # platforms, chip sets, and operating systems in the core and feature test cases
-  - filters:
-      - isMatch: true
-        labels:
-          - docs
-      - isMatch: false
-        labels:
-          - launch-files
-      - isMatch: false
-        name: Launch system
-        labels:
-          - launch
-      - isMatch: false
-        name: Webots
-        labels:
-          - webots
-      - isMatch: false
-        name: Deploying ROS 2 on IBM Cloud
-      - isMatch: false
-        name: Security on Two
-      - isMatch: false
-        name: Eclipse Oxygen with ROS 2 and rviz2
-      - isMatch: false
-        name: Building Realtime rt_preempt kernel for ROS 2
-      - isMatch: false
-        name: Releasing a ROS 2 package with bloom
-      - isMatch: false
-        name: Rosbag with ROS1 Bridge
-      # Ignore links which are redirects.
-      - isMatch: false
-        name: Ignition
-        labels:
-          - ignition
-      - isMatch: false
-        name: Recording A Bag From Your Own Node Python
-    dimensions:
-      rmw:
-        - fastdds
-      buildType:
-        - debian
-      os:
-        - noble
-      chip:
-        - amd64
-
-  # Features
-  # Noble
-  - filters:
-      - isMatch: true
-        labels:
-          - feature
-      - isMatch: false
-        labels:
-          - windows
-    dimensions:
-      rmw:
-        - fastdds
-        - cyclone
-        - zenoh
-      buildType:
-        - debian
-      os:
-        - noble
-      chip:
-        - amd64
-  # Windows
-  - filters:
-      - isMatch: true
-        labels:
-          - feature
-      - isMatch: false
-        labels:
-          - linux
-    dimensions:
-      rmw:
-        - fastdds
-        - cyclone
-      buildType:
-        - binary
-      os:
-        - windows
-      chip:
-        - amd64
-
-  # Core
-  # Noble
-  - filters:
-      - isMatch: true
-        labels:
-          - core
-    dimensions:
+test_cases_builders:
+  - name: Tutorial Party
+    shortname: tutorial_party
+    description: "Tutorial Party generation"
+    minimum_permutations_to_render: 0
+    permutations:
       rmw:
         - fastdds
         - cyclone
@@ -104,41 +12,51 @@
       buildType:
         - debian
         - binary
+        - source
+      os:
+        - noble
+        - windows
+        - rhel 9
       chip:
         - amd64
         - arm64
-      os:
-        - noble
-  # Windows (no arm64)
-  - filters:
-      - isMatch: true
-        labels:
-          - core
-    dimensions:
-      rmw:
-        - fastdds
-        - cyclone
-        - connext
-        - zenoh
-      buildType:
-        - binary
-        - source
-      chip:
-        - amd64
-      os:
-        - windows
-
-  # Core for tear 3 platforms
-  - filters:
-      - isMatch: true
-        labels:
-          - core
-    dimensions:
-      rmw:
-        - fastdds
-      buildType:
-        - source
-      chip:
-        - amd64
-      os:
-        - rhel 9
+    set:
+      - !Include
+          all_labels: [docs]
+          negate: false
+      - !Include
+          all_labels: [feature]
+          negate: false
+      - !Include
+          all_labels: [core]
+          negate: false
+      - !Exclude
+          any_names: [Launch system]
+          negate: false
+      - !Exclude
+          any_names: [Webots]
+          negate: false
+      - !Exclude
+          any_names: [Deploying ROS 2 on IBM Cloud]
+          negate: false
+      - !Exclude
+          any_names: [Security on Two]
+          negate: false
+      - !Exclude
+          any_names: [Eclipse Oxygen with ROS 2 and rviz2]
+          negate: false
+      - !Exclude
+          any_names: [Building Realtime rt_preempt kernel for ROS 2]
+          negate: false
+      - !Exclude
+          any_names: [Releasing a ROS 2 package with bloom]
+          negate: false
+      - !Exclude
+          any_names: [Rosbag with ROS1 Bridge]
+          negate: false
+      - !Exclude
+          any_names: [Ignition]
+          negate: false
+      - !Exclude
+          any_names: [Recording A Bag From Your Own Node Python]
+          negate: false
