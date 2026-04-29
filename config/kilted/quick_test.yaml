@@ -1,6 +1,6 @@
 generation: 1
 repo_owner: tfoote
-repo_name: testing-ros2_test_cases
+repo_name: ros2_test_cases
 workspace_version: 0.0.1
 yatm_v2_version: 1.0.0
 requirements_dirs: [requirements]
