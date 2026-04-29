@@ -34,5 +34,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          ../../yatm-v2/target/release/yatm_v2 github upload -c simple.yaml
+          ../../yatm-v2/target/release/yatm_v2 github upload -c quick_test.yaml
         working-directory: config/kilted
