@@ -1,0 +1,38 @@
+name: YATM Sync Issues
+
+on:
+  push:
+    branches: [ main, lyrical_prep ]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - name: Checkout ros2_test_cases
+        uses: actions/checkout@v4
+
+      - name: Checkout yatm-v2
+        uses: actions/checkout@v4
+        with:
+          repository: paudrow/yatm-v2
+          ref: update_file_prefix
+          path: yatm-v2
+
+      - name: Setup Rust
+        uses: actions-rust-lang/setup-rust-toolchain@v1
+        with:
+          cache-workdir: yatm-v2
+
+      - name: Build yatm-v2
+        run: cargo build --release
+        working-directory: yatm-v2
+
+      - name: Sync YATM Issues
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ../../yatm-v2/target/release/yatm_v2 github upload -c simple.yaml
+        working-directory: config/kilted
