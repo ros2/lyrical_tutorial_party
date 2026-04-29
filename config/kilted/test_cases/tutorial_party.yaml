@@ -58,5 +58,13 @@ test_cases_builders:
           any_names: [Ignition]
           negate: false
       - !Exclude
+          all_labels: [windows, arm64]
+          # No arm64 on Windows
+          negate: false
+      - !Exclude
+          all_labels: [windows, debian]
+          # No debian packages on Windows
+          negate: false
+      - !Exclude
           any_names: [Recording A Bag From Your Own Node Python]
           negate: false
