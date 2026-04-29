@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: paudrow/yatm-v2
-          ref: update_file_prefix
+          ref: sanitize_labels
           path: yatm-v2
 
       - name: Setup Rust
