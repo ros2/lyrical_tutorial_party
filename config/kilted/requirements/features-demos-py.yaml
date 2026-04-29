@@ -80,7 +80,53 @@ requirements:
     - !StdIn
       number: 2
       text: ros2 run demo_nodes_py async_param_client
-    expect: []
+    expect:
+    - !Describe The async parameter client will try setting a bunch of different values like below.
+    - !StdOut
+      number: 2
+      text: |
+        [INFO] [1777495511.134950203] [async_param_client]: Setting parameters:
+        [INFO] [1777495511.137789694] [async_param_client]:     int_parameter:
+        [INFO] [1777495511.138597704] [async_param_client]:         successful: True
+        [INFO] [1777495511.139321580] [async_param_client]:     bool_parameter:
+        [INFO] [1777495511.140069615] [async_param_client]:         successful: True
+        [INFO] [1777495511.140757811] [async_param_client]:     string_parameter:
+        [INFO] [1777495511.141435501] [async_param_client]:         successful: True
+        [INFO] [1777495511.142482220] [async_param_client]: Listing Parameters:
+        [INFO] [1777495511.144972812] [async_param_client]:     - bool_parameter
+        [INFO] [1777495511.146086151] [async_param_client]:     - int_parameter
+        [INFO] [1777495511.147108034] [async_param_client]:     - string_parameter
+        [INFO] [1777495511.148131385] [async_param_client]: Getting parameters:
+        [INFO] [1777495511.150607568] [async_param_client]:     - int_parameter: 10
+        [INFO] [1777495511.151685120] [async_param_client]:     - bool_parameter: False
+        [INFO] [1777495511.152761376] [async_param_client]:     - string_parameter: Fee Fi Fo Fum
+        [INFO] [1777495511.153824049] [async_param_client]: Loading parameters: 
+        [INFO] [1777495511.163204022] [async_param_client]:     other_int_parameter:
+        [INFO] [1777495511.164652873] [async_param_client]:         successful: True
+        [INFO] [1777495511.165949519] [async_param_client]:         value: 0
+        [INFO] [1777495511.167121151] [async_param_client]:     int_parameter:
+        [INFO] [1777495511.168607627] [async_param_client]:         successful: True
+        [INFO] [1777495511.169657687] [async_param_client]:         value: 12
+        [INFO] [1777495511.170518195] [async_param_client]:     string_parameter:
+        [INFO] [1777495511.171337001] [async_param_client]:         successful: True
+        [INFO] [1777495511.172220795] [async_param_client]:         value: I smell the blood of an Englishman
+        [INFO] [1777495511.173041072] [async_param_client]:     other_string_parameter:
+        [INFO] [1777495511.173894034] [async_param_client]:         successful: True
+        [INFO] [1777495511.174743411] [async_param_client]:         value: One fish, two fish, Red fish, blue fish
+        [INFO] [1777495511.175603649] [async_param_client]:     bool_parameter:
+        [INFO] [1777495511.176587429] [async_param_client]:         successful: True
+        [INFO] [1777495511.177526411] [async_param_client]:         value: False
+        [INFO] [1777495511.178433670] [async_param_client]: Deleting parameters: 
+        [INFO] [1777495511.181598191] [async_param_client]:     other_int_parameter:
+        [INFO] [1777495511.183093262] [async_param_client]:         successful: True
+        [INFO] [1777495511.184435145] [async_param_client]:         reason: 
+        [INFO] [1777495511.185718999] [async_param_client]:     other_string_parameter:
+        [INFO] [1777495511.187036088] [async_param_client]:         successful: True
+        [INFO] [1777495511.188550419] [async_param_client]:         reason: 
+        [INFO] [1777495511.189856685] [async_param_client]:     string_parameter:
+        [INFO] [1777495511.191171285] [async_param_client]:         successful: True
+        [INFO] [1777495511.192512293] [async_param_client]:         reason: 
+
   labels:
   - executable
   - feature
