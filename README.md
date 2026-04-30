@@ -50,6 +50,9 @@ We also recommend that you run `ros2 doctor --report` and include the output in 
 
 The goal is to close all tickets after successful validation. But we would like to prioritize the following sets in order:
 
+* RHEL 10
+
+
 ## What if I want to test something else?
 
 If you would like to test the functionality of any other package or extend the capabilities tested above, please open additional tickets while following the format described above.
