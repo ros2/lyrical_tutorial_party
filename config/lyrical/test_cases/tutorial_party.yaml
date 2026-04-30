@@ -66,6 +66,10 @@ test_cases_builders:
           # No arm64 on Windows
           negate: false
       - !Exclude
+          all_labels: ['rhel 10', debian]
+          # No debian packages on Windows
+          negate: false
+      - !Exclude
           all_labels: [windows, debian]
           # No debian packages on Windows
           negate: false
