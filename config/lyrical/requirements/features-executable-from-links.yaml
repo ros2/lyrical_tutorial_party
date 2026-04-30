@@ -1,0 +1,320 @@
+requirements:
+- name: Composition executables
+  shortname: composition_executables
+  description: ''
+  steps:
+  - name: The executables in the README are present and work as expected.
+    description: null
+    action: []
+    expect: []
+  labels:
+  - executable
+  - feature
+  links:
+  - name: Composition demos
+    url: https://github.com/ros2/demos/blob/kilted/composition/README.md
+- name: Demo Nodes (C++) executables
+  shortname: demo_nodes_(c++)_executables
+  description: ''
+  steps:
+  - name: The executables in the README are present and work as expected.
+    description: null
+    action: []
+    expect: []
+  labels:
+  - executable
+  - feature
+  links:
+  - name: Demo Nodes C++
+    url: https://github.com/ros2/demos/blob/kilted/demo_nodes_cpp/README.md
+- name: Demo Nodes Native (C++) executables
+  shortname: demo_nodes_native_(c++)_executables
+  description: ''
+  steps:
+  - name: The executables in the README are present and work as expected.
+    description: null
+    action: []
+    expect: []
+  labels:
+  - executable
+  - feature
+  links:
+  - name: Demo Nodes C++ native
+    url: https://github.com/ros2/demos/blob/kilted/demo_nodes_cpp_native/README.md
+- name: Dummy Map Server executables
+  shortname: dummy_map_server_executables
+  description: ''
+  steps:
+  - name: The executables in the README are present and work as expected.
+    description: null
+    action: []
+    expect: []
+  labels:
+  - executable
+  - feature
+  links:
+  - name: Dummy Map Server
+    url: https://github.com/ros2/demos/blob/kilted/dummy_robot/dummy_map_server/README.md#run
+- name: Dummy Sensors executables
+  shortname: dummy_sensors_executables
+  description: ''
+  steps:
+  - name: The executables in the README are present and work as expected.
+    description: null
+    action: []
+    expect: []
+  labels:
+  - executable
+  - feature
+  links:
+  - name: Dummy Sensors
+    url: https://github.com/ros2/demos/blob/kilted/dummy_robot/dummy_sensors/README.md#run
+- name: Image Tools executables
+  shortname: image_tools_executables
+  description: ''
+  steps:
+  - name: The executables in the README are present and work as expected.
+    description: null
+    action: []
+    expect: []
+  labels:
+  - executable
+  - feature
+  links:
+  - name: Image Tools
+    url: https://github.com/ros2/demos/blob/kilted/image_tools/README.md#run
+- name: Intra-process executables
+  shortname: intra_process_executables
+  description: ''
+  steps:
+  - name: The executables in the README are present and work as expected.
+    description: null
+    action: []
+    expect: []
+  labels:
+  - executable
+  - feature
+  links:
+  - name: Intra-process demos
+    url: https://github.com/ros2/demos/blob/kilted/intra_process_demo/README.md
+- name: Launch testing
+  shortname: launch_testing
+  description: ''
+  steps:
+  - name: Clone the example repository
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: mkdir -p ~/launch_ws/src
+    - !StdIn
+      number: 1
+      text: git clone https://github.com/ros2/launch -b iron ~/launch_ws/src/launch
+    expect: []
+  - name: Test `hello_world_launch_test.py`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: launch_test ~/launch_ws/src/launch/launch_testing/test/launch_testing/examples/hello_world_launch_test.py
+    expect: []
+  - name: Test `good_proc_launch_test.py`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: launch_test ~/launch_ws/src/launch/launch_testing/test/launch_testing/examples/good_proc_launch_test.py
+    expect: []
+  - name: Test `terminating_proc_launch_test.py`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: launch_test ~/launch_ws/src/launch/launch_testing/test/launch_testing/examples/terminating_proc_launch_test.py
+    expect: []
+  - name: Test `args_launch_test.py`
+    description: null
+    action:
+    - !Describe Show the arguments
+    - !StdIn
+      number: 1
+      text: launch_test ~/launch_ws/src/launch/launch_testing/test/launch_testing/examples/args_launch_test.py --show-args
+    - !Describe Run the test
+    - !StdIn
+      number: 1
+      text: launch_test ~/launch_ws/src/launch/launch_testing/test/launch_testing/examples/args_launch_test.py dut_arg:=hey
+    expect: []
+  - name: Test `context_launch_test.py`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: launch_test ~/launch_ws/src/launch/launch_testing/test/launch_testing/examples/context_launch_test.py
+    expect: []
+  labels:
+  - executable
+  - feature
+  links:
+  - name: Launch testing examples
+    url: https://github.com/ros2/launch/blob/kilted/launch_testing/README.md#examples
+- name: Quality of Service Demos
+  shortname: quality_of_service_demos
+  description: ''
+  steps:
+  - name: Deadline with pause
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run quality_of_service_demo_cpp deadline 600 --publish-for 5000 --pause-for 2000
+    - !StdIn
+      number: 1
+      text: ros2 run quality_of_service_demo_py deadline 600 --publish-for 5000 --pause-for 2000
+    expect:
+    - !Describe The publisher will publish for 5 seconds, then pause for 2 - deadline events will start firing on both participants, until the publisher comes back.
+  - name: Deadline no pause
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run quality_of_service_demo_cpp deadline 600 --publish-for 5000 --pause-for 0
+    - !StdIn
+      number: 1
+      text: ros2 run quality_of_service_demo_py deadline 600 --publish-for 5000 --pause-for 0
+    expect:
+    - !Describe The publisher doesn't actually pause, no deadline misses should occur.
+  - name: Lifespan, some survive
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run quality_of_service_demo_cpp lifespan 1000 --publish-count 10 --subscribe-after 3000
+    - !StdIn
+      number: 1
+      text: ros2 run quality_of_service_demo_py lifespan 1000 --publish-count 10 --subscribe-after 3000
+    expect:
+    - !Describe |
+      After a few seconds, you should see (approximately) messages 4-9 printed from the subscriber.
+
+      The first few messages, with 1 second lifespan, were gone by the time the subscriber joined after 3 seconds.
+  - name: Lifespan, all survive
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run quality_of_service_demo_cpp lifespan 4000 --publish-count 10 --subscribe-after 3000
+    - !StdIn
+      number: 1
+      text: ros2 run quality_of_service_demo_py lifespan 4000 --publish-count 10 --subscribe-after 3000
+    expect:
+    - !Describe |
+      After a few seconds, you should see all of the messages (0-9) printed from the subscriber.
+
+      All messages, with their 4 second lifespan, survived until the subscriber joined.
+  - name: Liveliness
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run quality_of_service_demo_cpp liveliness 1000 --kill-publisher-after 2000
+    - !StdIn
+      number: 1
+      text: ros2 run quality_of_service_demo_py liveliness 1000 --kill-publisher-after 2000
+    expect:
+    - !Describe After 2 seconds, the publisher will be killed, and the subscriber will receive a callback 1 second after that notifying it that the liveliness has changed.
+  - name: Incompatible QoS Offered/Requested
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run quality_of_service_demo_cpp incompatible_qos durability
+    - !StdIn
+      number: 1
+      text: ros2 run quality_of_service_demo_py incompatible_qos durability
+    expect:
+    - !Describe |
+      The publisher in this demo will publish 5 messages, but also output a notification stating that its offered QoS is incompatible with the subscriber that is also created by this demo. The subscriber in this demo will similarly output a notification stating that its requested QoS is incompatible with the QoS offered by the publisher.
+  - name: Interactive Quality of Service Demo
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run quality_of_service_demo_cpp interactive_publisher
+    - !StdIn
+      number: 2
+      text: ros2 run quality_of_service_demo_cpp interactive_subscriber
+    - !Describe In the publisher's terminal, press `p` to manually assert the liveliness of the publisher, for when Liveliness kind is `MANUAL_BY_TOPIC`.
+    - !Describe In the publisher's terminal, press `s` to toggle enabling/disabling of publishing messages
+    - !Describe In the publisher and subscriber's terminal, press `q` to print the current QoS policy.
+    - !Describe In the publisher and subscriptions's terminal, press `x` to stop and exit the demo.
+    expect:
+    - !Describe All key-press commands work.
+  labels:
+  - executable
+  - feature
+  - qos
+  links:
+  - name: Demo URL
+    url: https://github.com/ros2/demos/blob/kilted/quality_of_service_demo/README.md
+- name: Lifecycle demo
+  shortname: lifecycle_demo
+  description: ''
+  steps:
+  - name: Run files individually
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run lifecycle lifecycle_talker
+    - !Image https://camo.githubusercontent.com/6af40d87a90146d4ef95dadbaf346b7aafab0fd885ea6c5c42cfa33e4230ba4c/68747470733a2f2f61736369696e656d612e6f72672f612f3234393034392e706e67
+    - !StdIn
+      number: 2
+      text: ros2 run lifecycle lifecycle_listener
+    - !Image https://camo.githubusercontent.com/e39630aeaf1a23341e89846256563cb02d42d50741ccfea51613cf660633998b/68747470733a2f2f61736369696e656d612e6f72672f612f3234393035302e706e67
+    - !StdIn
+      number: 3
+      text: ros2 run lifecycle lifecycle_service_client
+    - !Image https://camo.githubusercontent.com/e4e31422fa38b07a492b13be87cd629485b688060d7440ae5cd8386624598e8e/68747470733a2f2f61736369696e656d612e6f72672f612f3234393035312e706e67
+    expect:
+    - !Describe The images match.
+  labels:
+  - executable
+  - feature
+  - lifecycle
+  links:
+  - name: Reference URL
+    url: https://github.com/ros2/demos/blob/kilted/lifecycle/README.rst
+- name: Topic monitor
+  shortname: topic_monitor
+  description: ''
+  steps:
+  - name: Comparing reliability QoS settings
+    description: null
+    action:
+    - !Describe |
+      You will need two machines with ROS 2: one mobile and one stationary.
+    - !StdIn
+      number: 1
+      text: ros2 run topic_monitor topic_monitor --display
+    - !Describe |
+      Run the `ros2 launch topic_monitor reliability_demo_launch.py` executable on the stationary machine. This will start two nodes: one publishing in “reliable” mode, and one in “best effort”.
+    - !StdIn
+      number: 1
+      text: ros2 launch topic_monitor reliability_demo_launch.py
+    - !Describe |
+      Start the monitor on a mobile machine such as a laptop. Use `ros2 run topic_monitor topic_monitor --display --allowed-latency 5` to account for any latency that may occur re-sending the reliable messages.
+    - !StdIn
+      number: 1
+      text: ros2 run topic_monitor topic_monitor --display --allowed-latency 5
+    - !Describe Take the mobile machine out of range of the monitor, and observe how the reception rates differ for the different topics.
+    expect:
+    - !Describe |
+      You should see that the "reliable" topic has a reception rate that is almost always either 0 or 100%, while the "best effort" topic has a reception rate that fluctuates based on the strength of the connection.
+    - !Image https://raw.githubusercontent.com/ros2/demos/kilted/topic_monitor/doc/reliability_comparison.png
+  labels:
+  - executable
+  - feature
+  - topic_monitor
+  links:
+  - name: Reference URL
+    url: https://github.com/ros2/demos/blob/kilted/topic_monitor/README.md

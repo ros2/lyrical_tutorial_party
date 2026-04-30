@@ -1,0 +1,711 @@
+requirements:
+- name: Executables in `quality_of_service_demo_cpp`
+  shortname: executables_in_`quality_of_service_demo_cpp`
+  description: ''
+  steps:
+  - name: Check `lifespan`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run quality_of_service_demo_cpp lifespan
+    expect: []
+  - name: Check `liveliness`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run quality_of_service_demo_cpp liveliness
+    expect: []
+  - name: Check `deadline`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run quality_of_service_demo_cpp deadline
+    expect: []
+  labels:
+  - executable
+  - feature
+  links: null
+- name: Executables in `quality_of_service_demo_py`
+  shortname: executables_in_`quality_of_service_demo_py`
+  description: ''
+  steps:
+  - name: Check `lifespan`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run quality_of_service_demo_py lifespan
+    expect: []
+  - name: Check `liveliness`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run quality_of_service_demo_py liveliness
+    expect: []
+  - name: Check `deadline`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run quality_of_service_demo_py deadline
+    expect: []
+  labels:
+  - executable
+  - feature
+  links: null
+- name: Executables in `lifecycle`
+  shortname: executables_in_`lifecycle`
+  description: ''
+  steps:
+  - name: Check `lifecycle_demo_launch.py`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 launch lifecycle lifecycle_demo_launch.py
+    expect: []
+  labels:
+  - executable
+  - feature
+  links: null
+- name: Executables in `tf2_ros`
+  shortname: executables_in_`tf_2_ros`
+  description: ''
+  steps:
+  - name: Check `tf2_echo`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run tf2_ros tf2_echo
+    expect: []
+  - name: Check `tf2_monitor`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run tf2_ros tf2_monitor
+    expect: []
+  - name: Check `static_transform_publisher`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run tf2_ros static_transform_publisher --frame-id world --child-frame-id map
+    expect: []
+  labels:
+  - executable
+  - feature
+  links: null
+- name: Executables in `examples_rclcpp_minimal_publisher`
+  shortname: executables_in_`examples_rclcpp_minimal_publisher`
+  description: ''
+  steps:
+  - name: Check `publisher_lambda`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclcpp_minimal_publisher publisher_lambda
+    expect: []
+  - name: Check `publisher_member_function`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclcpp_minimal_publisher publisher_member_function
+    expect: []
+  - name: Check `publisher_not_composable`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclcpp_minimal_publisher publisher_not_composable
+    expect: []
+  labels:
+  - executable
+  - feature
+  links: null
+- name: Executables in `examples_rclcpp_minimal_subscriber`
+  shortname: executables_in_`examples_rclcpp_minimal_subscriber`
+  description: ''
+  steps:
+  - name: Check `subscriber_lambda`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclcpp_minimal_subscriber subscriber_lambda
+    expect: []
+  - name: Check `subscriber_member_function`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclcpp_minimal_subscriber subscriber_member_function
+    expect: []
+  - name: Check `subscriber_not_composable`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclcpp_minimal_subscriber subscriber_not_composable
+    expect: []
+  labels:
+  - executable
+  - feature
+  links: null
+- name: Executables in `examples_rclcpp_minimal_service`
+  shortname: executables_in_`examples_rclcpp_minimal_service`
+  description: ''
+  steps:
+  - name: Check `service_main`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclcpp_minimal_service service_main
+    expect: []
+  labels:
+  - executable
+  - feature
+  links: null
+- name: Executables in `examples_rclcpp_minimal_client`
+  shortname: executables_in_`examples_rclcpp_minimal_client`
+  description: ''
+  steps:
+  - name: Check `client_main`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclcpp_minimal_client client_main
+    expect: []
+  labels:
+  - executable
+  - feature
+  links: null
+- name: Executables in `examples_rclcpp_minimal_composition`
+  shortname: executables_in_`examples_rclcpp_minimal_composition`
+  description: ''
+  steps:
+  - name: Check `composition_composed`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclcpp_minimal_composition composition_composed
+    expect: []
+  - name: Check `composition_publisher`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclcpp_minimal_composition composition_publisher
+    expect: []
+  - name: Check `composition_subscriber`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclcpp_minimal_composition composition_subscriber
+    expect: []
+  labels:
+  - executable
+  - feature
+  links: null
+- name: Executables in `examples_rclcpp_minimal_action_server`
+  shortname: executables_in_`examples_rclcpp_minimal_action_server`
+  description: ''
+  steps:
+  - name: Check `action_server_not_composable`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclcpp_minimal_action_server action_server_not_composable
+    expect: []
+  - name: Check `action_server_member_functions`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclcpp_minimal_action_server action_server_member_functions
+    expect: []
+  labels:
+  - executable
+  - feature
+  links: null
+- name: Executables in `examples_rclcpp_minimal_action_client`
+  shortname: executables_in_`examples_rclcpp_minimal_action_client`
+  description: ''
+  steps:
+  - name: Check `action_client_not_composable`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclcpp_minimal_action_client action_client_not_composable
+    expect: []
+  - name: Check `action_client_not_composable_with_cancel`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclcpp_minimal_action_client action_client_not_composable_with_cancel
+    expect: []
+  - name: Check `action_client_not_composable_with_feedback`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclcpp_minimal_action_client action_client_not_composable_with_feedback
+    expect: []
+  - name: Check `action_client_member_functions`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclcpp_minimal_action_client action_client_member_functions
+    expect: []
+  labels:
+  - executable
+  - feature
+  links: null
+- name: Executables in `examples_rclcpp_multithreaded_executor`
+  shortname: executables_in_`examples_rclcpp_multithreaded_executor`
+  description: ''
+  steps:
+  - name: Check `multithreaded_executor`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclcpp_multithreaded_executor multithreaded_executor
+    expect: []
+  labels:
+  - executable
+  - feature
+  links: null
+- name: Executables in `examples_rclpy_minimal_action_server`
+  shortname: executables_in_`examples_rclpy_minimal_action_server`
+  description: ''
+  steps:
+  - name: Check `server_defer`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_minimal_action_server server_defer
+    expect: []
+  - name: Check `server_not_composable`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_minimal_action_server server_not_composable
+    expect: []
+  - name: Check `server`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_minimal_action_server server
+    expect: []
+  - name: Check `server_queue_goals`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_minimal_action_server server_queue_goals
+    expect: []
+  - name: Check `server_single_goal`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_minimal_action_server server_single_goal
+    expect: []
+  labels:
+  - executable
+  - feature
+  links: null
+- name: Executables in `examples_rclpy_minimal_action_client`
+  shortname: executables_in_`examples_rclpy_minimal_action_client`
+  description: ''
+  steps:
+  - name: Check `client_cancel`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_minimal_action_client client_cancel
+    expect: []
+  - name: Check `client_not_composable`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_minimal_action_client client_not_composable
+    expect: []
+  - name: Check `client`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_minimal_action_client client
+    expect: []
+  labels:
+  - executable
+  - feature
+  links: null
+- name: Executables in `examples_rclpy_minimal_publisher`
+  shortname: executables_in_`examples_rclpy_minimal_publisher`
+  description: ''
+  steps:
+  - name: Check `publisher_local_function`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_minimal_publisher publisher_local_function
+    expect: []
+  - name: Check `publisher_member_function`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_minimal_publisher publisher_member_function
+    expect: []
+  - name: Check `publisher_old_school`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_minimal_publisher publisher_old_school
+    expect: []
+  labels:
+  - executable
+  - feature
+  links: null
+- name: Executables in `examples_rclpy_minimal_subscriber`
+  shortname: executables_in_`examples_rclpy_minimal_subscriber`
+  description: ''
+  steps:
+  - name: Check `subscriber_lambda`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_minimal_subscriber subscriber_lambda
+    expect: []
+  - name: Check `subscriber_member_function`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_minimal_subscriber subscriber_member_function
+    expect: []
+  - name: Check `subscriber_old_school`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_minimal_subscriber subscriber_old_school
+    expect: []
+  labels:
+  - executable
+  - feature
+  links: null
+- name: Executables in `examples_rclpy_minimal_client`
+  shortname: executables_in_`examples_rclpy_minimal_client`
+  description: ''
+  steps:
+  - name: Check `client`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_minimal_client client
+    expect: []
+  - name: Check `client_async`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_minimal_client client_async
+    expect: []
+  - name: Check `client_async_member_function`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_minimal_client client_async_member_function
+    expect: []
+  - name: Check `client_async_callback`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_minimal_client client_async_callback
+    expect: []
+  labels:
+  - executable
+  - feature
+  links: null
+- name: Executables in `examples_rclpy_minimal_service`
+  shortname: executables_in_`examples_rclpy_minimal_service`
+  description: ''
+  steps:
+  - name: Check `service`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_minimal_service service
+    expect: []
+  - name: Check `service_member_function`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_minimal_service service_member_function
+    expect: []
+  labels:
+  - executable
+  - feature
+  links: null
+- name: Executables in `examples_rclpy_executors`
+  shortname: executables_in_`examples_rclpy_executors`
+  description: ''
+  steps:
+  - name: Check `callback_group`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_executors callback_group
+    expect: []
+  - name: Check `composed`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_executors composed
+    expect: []
+  - name: Check `custom_callback_group`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_executors custom_callback_group
+    expect: []
+  - name: Check `custom_executor`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_executors custom_executor
+    expect: []
+  - name: Check `listener`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_executors listener
+    expect: []
+  - name: Check `talker`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run examples_rclpy_executors talker
+    expect: []
+  labels:
+  - executable
+  - feature
+  links: null
+- name: Executables in `pendulum_control`
+  shortname: executables_in_`pendulum_control`
+  description: ''
+  steps:
+  - name: Check `pendulum_demo`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run pendulum_control pendulum_demo
+    expect: []
+  - name: Check `pendulum_teleop`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run pendulum_control pendulum_teleop
+    expect: []
+  - name: Check `pendulum_logger`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run pendulum_control pendulum_logger
+    expect: []
+  labels:
+  - executable
+  - feature
+  - linux
+  links: null
+- name: Executables in `tlsf_cpp`
+  shortname: executables_in_`tlsf_cpp`
+  description: ''
+  steps:
+  - name: Check `tlsf_allocator_example`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run tlsf_cpp tlsf_allocator_example
+    expect: []
+  labels:
+  - executable
+  - feature
+  - linux
+  links: null
+- name: Executables in `rttest`
+  shortname: executables_in_`rttest`
+  description: ''
+  steps:
+  - name: Run pendulum_demo to generate data
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run pendulum_control pendulum_demo -f pendulum_demo_results
+    expect: []
+  - name: Check `rttest_plot`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run rttest rttest_plot -s pendulum_demo_results
+    expect: []
+  labels:
+  - executable
+  - feature
+  - linux
+  links: null
+- name: Executables in `dummy_robot_bringup`
+  shortname: executables_in_`dummy_robot_bringup`
+  description: ''
+  steps:
+  - name: Check `dummy_robot_bringup_launch.py`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 launch dummy_robot_bringup dummy_robot_bringup_launch.py
+    expect: []
+  - name: Check `dummy_robot_bringup_launch.xml`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 launch dummy_robot_bringup dummy_robot_bringup_launch.xml
+    expect: []
+  - name: Check `dummy_robot_bringup_launch.yaml`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 launch dummy_robot_bringup dummy_robot_bringup_launch.yaml
+    expect: []
+  labels:
+  - executable
+  - feature
+  links: null
+- name: Executables in `rviz2`
+  shortname: executables_in_`rviz_2`
+  description: ''
+  steps:
+  - name: Check `rviz2`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 run rviz2 rviz2
+    expect: []
+  labels:
+  - executable
+  - feature
+  links: null
+- name: Executables in gz vendor packages
+  shortname: executables_in_gz_vendor_packages
+  description: You will need to install the `desktop-full` or `simulation` variants before running this test.
+  steps:
+  - name: Check `gz sim -v4 shapes.sdf`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: gz sim -v4 shapes.sdf
+    expect: []
+  labels:
+  - executable
+  - feature
+  - linux
+  links: null
+- name: Executables in `rqt`
+  shortname: executables_in_`rqt`
+  description: ''
+  steps:
+  - name: Check `rqt`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: rqt
+    expect: []
+  labels:
+  - executable
+  - feature
+  links: null
+- name: Executables in `rosbag2`
+  shortname: executables_in_`rosbag_2`
+  description: ''
+  steps:
+  - name: Check `ros2 bag record -a`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 bag record -a
+    expect: []
+  - name: Check `ros2 bag record <topic1> <topic2> <topic3>`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 bag record <topic1> <topic2> <topic3>
+    expect: []
+  - name: Check `ros2 bag info <bag_file>`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 bag info <bag_file>
+    expect: []
+  - name: Check `ros2 bag play <bag_file>`
+    description: null
+    action:
+    - !StdIn
+      number: 1
+      text: ros2 bag play <bag_file>
+    expect: []
+  labels:
+  - executable
+  - feature
+  links: null

@@ -1,0 +1,27 @@
+generation: 1
+repo_owner: tfoote
+repo_name: ros2_test_cases
+workspace_version: 0.0.1
+yatm_v2_version: 1.0.0
+requirements_dirs: [requirements]
+test_cases_builders_dirs:
+- simple
+new_requirements_dir: requirements
+new_test_cases_builder_dir: simple
+generated_files_dir: generated_files
+labels:
+- name: 'Invalid'
+  color: f0440a
+  description: Closed by manager as not applicable
+- name: 'Duration: Short'
+  color: 07F816
+  description: This is expected to take on the order of 15 minutes
+- name: 'Duration: Medium'
+  color: 0771F8
+  description: This is expected to take on the order of 1 hour
+- name: 'Duration: Long'
+  color: F88E07
+  description: This is expected to take on the order of 4 hours
+- name: 'Duration: XL'
+  color: F807E9
+  description: This is expected to take on the order of 1 day
