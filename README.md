@@ -52,7 +52,7 @@ The goal is to close all tickets after successful validation. But we would like 
 
 * RHEL 10
 
-## Filters by Setup
+## Tutorials by Setup
 
 ### Ubuntu Resolute 26.04
 * AMD64
