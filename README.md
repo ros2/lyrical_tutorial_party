@@ -50,23 +50,6 @@ We also recommend that you run `ros2 doctor --report` and include the output in 
 
 The goal is to close all tickets after successful validation. But we would like to prioritize the following sets in order:
 
-> **Note**: If you have access to a `Windows` machine, please prioritize testing on `Windows`. The next priority is `RHEL-10` followed by `Ubuntu Resolute`.
-- [ ] [Tutorials from docs.ros.org](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue+is%3Aopen+label%3Adocs)
-  - [ ] [Installation on various platforms](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue+is%3Aopen+label%3Ainstallation+)
-  - [ ] [Beginner CLI](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aopen+label%3Adocs+label%3Abeginner-cli-tools+)
-  - [ ] [Beginner Client Libraries](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aopen+label%3Adocs+label%3Abeginner-client-libraries+)
-  - [ ] [Intermediate](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aopen+label%3Adocs+label%3Aintermediate+)
-  - [ ] [Advanced](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aopen+label%3Adocs+label%3Aadvanced+)
-- [ ] [Core functionality](https://github.com/ros2/lyrical_tutorial_party/labels/core)
-  - [ ] [resolute, debian](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20is%3Aopen%20label%3Acore%20label%3Aresolute%20label%3Adebian%20)
-  - [ ] [resolute, binary](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20is%3Aopen%20label%3Acore%20label%3Aresolute%20label%3Abinary)
-  - [ ] [windows, binary](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20is%3Aopen%20label%3Acore%20label%3Awindows%20label%3Abinary%20)
-  - [ ] [windows, source](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue+is%3Aopen+label%3Acore+label%3A%22Build+type%3A+Source%22+label%3A%22OS%3A+Windows%22+)
-  - [ ] [rhel, source](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue+is%3Aopen+label%3Acore+label%3A%22Build+type%3A+Source%22+label%3A%22OS%3A+RHEL+10%22+)
-- [ ] [Features](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue+is%3Aopen+label%3Afeature+)
-  - [ ] [resolute](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20is%3Aopen%20label%3Afeature%20label%3Aresolute%20)
-  - [ ] [windows](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20is%3Aopen%20label%3Afeature%20label%3Awindows)
-
 ## What if I want to test something else?
 
 If you would like to test the functionality of any other package or extend the capabilities tested above, please open additional tickets while following the format described above.
