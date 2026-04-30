@@ -62,9 +62,6 @@ The goal is to close all tickets after successful validation. But we would like 
   * [resolute / amd64 / connext](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20resolute%22%20label%3A%22chip%3A%20amd64%22%20label%3A%22rmw%3A%20connext%22%20label%3Atutorials)
 * ARM64
   * [resolute / arm64 / fastdds](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20resolute%22%20label%3A%22chip%3A%20arm64%22%20label%3A%22rmw%3A%20fastdds%22%20label%3Atutorials)
-  * [resolute / arm64 / cyclone](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20resolute%22%20label%3A%22chip%3A%20arm64%22%20label%3A%22rmw%3A%20cyclone%22%20label%3Atutorials)
-  * [resolute / arm64 / zenoh](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20resolute%22%20label%3A%22chip%3A%20arm64%22%20label%3A%22rmw%3A%20zenoh%22%20label%3Atutorials)
-  * [resolute / arm64 / connext](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20resolute%22%20label%3A%22chip%3A%20arm64%22%20label%3A%22rmw%3A%20connext%22%20label%3Atutorials)
 ### RedHat 10
 * AMD64
   * [rhel10 / amd64 / fastdds](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20rhel%2010%22%20label%3A%22chip%3A%20amd64%22%20label%3A%22rmw%3A%20fastdds%22%20label%3Atutorials)
