@@ -12,7 +12,7 @@ Testing after that is welcome, but will not be included in the official statisti
 
 Everyone, all contributions are welcome!
 If you would like to be eligible for [ROS swag](https://store.openrobotics.org/collections/lyrical-luth-merch) or [OSRA membership](https://osralliance.org/) you ⚠️ [must register using this form](https://forms.gle/LQ4wNcHUZsjySsv27) ⚠️ so we can associate your e-mail address with Github handle. 
-Full details about the [Test and Tutorial Party are available on Open Robotics Discourse.](TODO)
+Full details about the [Test and Tutorial Party are available on Open Robotics Discourse.](https://discourse.openrobotics.org/t/lyrical-luth-test-and-tutorial-party-instructions/)
 
 ## How to contribute?
 
@@ -68,20 +68,9 @@ The goal is to close all tickets after successful validation. But we would like 
 ### RedHat 10
 * AMD64
   * [rhel10 / amd64 / fastdds](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20rhel%2010%22%20label%3A%22chip%3A%20amd64%22%20label%3A%22rmw%3A%20fastdds%22%20label%3Atutorials)
-  * [rhel10 / amd64 / cyclone](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20rhel%2010%22%20label%3A%22chip%3A%20amd64%22%20label%3A%22rmw%3A%20cyclone%22%20label%3Atutorials)
-  * [rhel10 / amd64 / zenoh](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20rhel%2010%22%20label%3A%22chip%3A%20amd64%22%20label%3A%22rmw%3A%20zenoh%22%20label%3Atutorials)
-  * [rhel10 / amd64 / connext](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20rhel%2010%22%20label%3A%22chip%3A%20amd64%22%20label%3A%22rmw%3A%20connext%22%20label%3Atutorials)
-* ARM64
-  * [rhel10 / arm64 / fastdds](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20rhel%2010%22%20label%3A%22chip%3A%20arm64%22%20label%3A%22rmw%3A%20fastdds%22%20label%3Atutorials)
-  * [rhel10 / arm64 / cyclone](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20rhel%2010%22%20label%3A%22chip%3A%20arm64%22%20label%3A%22rmw%3A%20cyclone%22%20label%3Atutorials)
-  * [rhel10 / arm64 / zenoh](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20rhel%2010%22%20label%3A%22chip%3A%20arm64%22%20label%3A%22rmw%3A%20zenoh%22%20label%3Atutorials)
-  * [rhel10 / arm64 / connext](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20rhel%2010%22%20label%3A%22chip%3A%20arm64%22%20label%3A%22rmw%3A%20connext%22%20label%3Atutorials)
 ###  Windows 11
 * AMD64
   * [windows11 / amd64 / fastdds](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20windows11%22%20label%3A%22chip%3A%20amd64%22%20label%3A%22rmw%3A%20fastdds%22%20label%3Atutorials)
-  * [windows11 / amd64 / cyclone](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20windows11%22%20label%3A%22chip%3A%20amd64%22%20label%3A%22rmw%3A%20cyclone%22%20label%3Atutorials)
-  * [windows11 / amd64 / zenoh](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20windows11%22%20label%3A%22chip%3A%20amd64%22%20label%3A%22rmw%3A%20zenoh%22%20label%3Atutorials)
-  * [windows11 / amd64 / connext](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20windows11%22%20label%3A%22chip%3A%20amd64%22%20label%3A%22rmw%3A%20connext%22%20label%3Atutorials)
 
 ## What if I want to test something else?
 
