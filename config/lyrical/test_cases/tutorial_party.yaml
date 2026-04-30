@@ -58,6 +58,10 @@ test_cases_builders:
           any_names: [Ignition]
           negate: false
       - !Exclude
+          all_labels: ['rhel 10', arm64]
+          # No arm64 on Windows
+          negate: false
+      - !Exclude
           all_labels: [windows, arm64]
           # No arm64 on Windows
           negate: false
