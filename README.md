@@ -1,7 +1,7 @@
 # ROS 2 Lyrical Tutorial Party
 Welcome! The purpose of this repository is to guide the testing of various functionalities of ROS 2 Lyrical Luth prior to official release.
 In other words, welcome to the Tutorial Party!
-The tutorial party will run between May 1, 2024 and May 15, 2024 (inclusive).
+The tutorial party will run between April 30, 2026 and May 14, 2026 (inclusive).
 Testing after that is welcome, but will not be included in the official statistics.
 
 ## Who can contribute?
