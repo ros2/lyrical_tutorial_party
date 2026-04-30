@@ -22,7 +22,7 @@ Each ticket will have the following sections:
 1. **Setup**: Details on the desired hardware and software setup for this test. The following combinations are possible.
    1. RMW Implementation: `FASTDDS`, `CYCLONEDDS`, `CONNEXTDDS` or `ZENOH`
    2. BuildType:
-      * `binary`: pre-built packaged ROS 2 workspace from [the releases page](https://github.com/ros2/ros2/releases/tag/release-lyrical-beta2-20250507)
+      * `binary`: pre-built packaged ROS 2 workspace from [the releases page](https://github.com/ros2/ros2/releases/tag/release-lyrical-beta-20260429-1)
       * `debian`: pre-built debian packages from the apt repository
       * `source`: building your own workspace from source
    3. Os: `Ubuntu Resolut`, `Windows 11` and `RHEL-10`
@@ -31,8 +31,8 @@ Each ticket will have the following sections:
 3. **Checks**: A list of functionalities to validate.
 
 To contribute, first ensure if you have the relevant setup as described in the ticket.
-If you don't have the setup, you can find the [installation instructions on docs.ros.org](http://docs.ros.org/en/lyrical/Installation.html) 
-If you would like to change your RMW vendor please [follow the instructions in the ROS documentation.](https://docs.ros.org/en/lyrical/Installation/RMW-Implementations.html)
+If you don't have the setup, you can find the [installation instructions on docs.ros.org](http://docs.ros.org/en/rolling/Installation.html) 
+If you would like to change your RMW vendor please [follow the instructions in the ROS documentation.](https://docs.ros.org/en/rolling/Installation/RMW-Implementations.html)
 Next, assign the ticket to yourself via the `Assignees` option or comment on the ticket indicating your interest.
 Then follow the instructions to perform the necessary checks. 
 
@@ -44,7 +44,7 @@ If you have the necessary permission, go ahead and close the ticket by clicking 
 
 **Encountered failures?**
 If one or more checks fail, please provide the error message in a codeblock comment or as a gist file attachment.
-We also recommend that you run `ros2 doctor --report` and include the output in your report. 
+We also recommend that you run `ros2 doctor --report` and include the output in your report. [Report the issue on this board.](https://github.com/orgs/ros2/projects/79/views/1)
 
 ## What to prioritize?
 
@@ -73,7 +73,7 @@ If you would like to test the functionality of any other package or extend the c
 
 ## Questions
 
-Questions related to testing may be posted on the [Discussions](https://github.com/ros2/lyrical_tutorial_party/discussions) board.
+Questions related to testing may be posted on the [Discussions](https://github.com/orgs/ros2/projects/79/views/1) board.
 Kindly ensure to link the relevant issue ticket when starting a new discussion.
 
 ### Tickets filtered by Setup
