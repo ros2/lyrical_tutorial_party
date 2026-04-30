@@ -66,6 +66,45 @@ test_cases_builders:
           # No arm64 on Windows
           negate: false
       - !Exclude
+          all_labels: [binary, arm64]
+          negate: false
+      - !Exclude
+          all_labels: [connext, arm64]
+          negate: false
+      - !Exclude
+          all_labels: [cyclone, arm64]
+          negate: false
+      - !Exclude
+          all_labels: [zenoh, arm64]
+          negate: false
+      - !Exclude
+          all_labels: [cyclone, windows11]
+          negate: false
+      - !Exclude
+          all_labels: [zenoh, windows11]
+          negate: false
+      - !Exclude
+          all_labels: [connext, windows11]
+          negate: false
+      - !Exclude
+          all_labels: [cyclone, 'rhel 10']
+          negate: false
+      - !Exclude
+          all_labels: [zenoh, 'rhel 10']
+          negate: false
+      - !Exclude
+          all_labels: [connext, 'rhel 10']
+          negate: false
+      - !Exclude
+          all_labels: [connext, binary]
+          negate: false
+      - !Exclude
+          all_labels: [cyclone, binary]
+          negate: false
+      - !Exclude
+          all_labels: [zenoh, binary]
+          negate: false
+      - !Exclude
           all_labels: ['rhel 10', debian]
           # No debian packages on Windows
           negate: false
