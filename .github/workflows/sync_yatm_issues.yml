@@ -49,4 +49,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          ./yatm-v2/target/release/yatm_v2 github upload -c ${{ env.CONFIG_PATH }} -n
+          ./yatm-v2/target/release/yatm_v2 github upload -c ${{ env.CONFIG_PATH }}
