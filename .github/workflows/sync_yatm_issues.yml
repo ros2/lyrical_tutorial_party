@@ -5,7 +5,7 @@ on:
     branches: [ main, lyrical_prep ]
 
 env:
-  CONFIG_PATH: config/kilted/quick_test.yaml
+  CONFIG_PATH: config/lyrical/quick_test.yaml
 
 jobs:
   sync:

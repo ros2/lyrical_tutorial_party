@@ -39,4 +39,4 @@ jobs:
       - name: Validate YATM Config
         run: |
           ../../yatm-v2/target/release/yatm_v2 github validate -c test-case.config.yaml
-        working-directory: config/kilted
+        working-directory: config/lyrical
