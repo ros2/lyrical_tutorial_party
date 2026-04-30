@@ -5,7 +5,7 @@ on:
     branches: [ main, lyrical_prep ]
 
 env:
-  CONFIG_PATH: config/lyrical/quick_test.yaml
+  CONFIG_PATH: config/lyrical/test-case.config.yaml
 
 jobs:
   sync:
@@ -49,4 +49,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          ./yatm-v2/target/release/yatm_v2 github upload -c ${{ env.CONFIG_PATH }}
+          ./yatm-v2/target/release/yatm_v2 github upload -c ${{ env.CONFIG_PATH }} -n
