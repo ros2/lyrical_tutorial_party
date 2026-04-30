@@ -12,7 +12,7 @@ requirements:
   - feature
   links:
   - name: Composition demos
-    url: https://github.com/ros2/demos/blob/kilted/composition/README.md
+    url: https://github.com/ros2/demos/blob/lyrical/composition/README.md
 - name: Demo Nodes (C++) executables
   shortname: demo_nodes_(c++)_exe
   description: ''
@@ -26,7 +26,7 @@ requirements:
   - feature
   links:
   - name: Demo Nodes C++
-    url: https://github.com/ros2/demos/blob/kilted/demo_nodes_cpp/README.md
+    url: https://github.com/ros2/demos/blob/lyrical/demo_nodes_cpp/README.md
 - name: Demo Nodes Native (C++) executables
   shortname: demo_nodes_native_(c
   description: ''
@@ -40,7 +40,7 @@ requirements:
   - feature
   links:
   - name: Demo Nodes C++ native
-    url: https://github.com/ros2/demos/blob/kilted/demo_nodes_cpp_native/README.md
+    url: https://github.com/ros2/demos/blob/lyrical/demo_nodes_cpp_native/README.md
 - name: Dummy Map Server executables
   shortname: dummy_map_server_exe
   description: ''
@@ -54,7 +54,7 @@ requirements:
   - feature
   links:
   - name: Dummy Map Server
-    url: https://github.com/ros2/demos/blob/kilted/dummy_robot/dummy_map_server/README.md#run
+    url: https://github.com/ros2/demos/blob/lyrical/dummy_robot/dummy_map_server/README.md#run
 - name: Dummy Sensors executables
   shortname: dummy_sensors_execut
   description: ''
@@ -68,7 +68,7 @@ requirements:
   - feature
   links:
   - name: Dummy Sensors
-    url: https://github.com/ros2/demos/blob/kilted/dummy_robot/dummy_sensors/README.md#run
+    url: https://github.com/ros2/demos/blob/lyrical/dummy_robot/dummy_sensors/README.md#run
 - name: Image Tools executables
   shortname: image_tools_executab
   description: ''
@@ -82,7 +82,7 @@ requirements:
   - feature
   links:
   - name: Image Tools
-    url: https://github.com/ros2/demos/blob/kilted/image_tools/README.md#run
+    url: https://github.com/ros2/demos/blob/lyrical/image_tools/README.md#run
 - name: Intra-process executables
   shortname: intra_process_execut
   description: ''
@@ -96,7 +96,7 @@ requirements:
   - feature
   links:
   - name: Intra-process demos
-    url: https://github.com/ros2/demos/blob/kilted/intra_process_demo/README.md
+    url: https://github.com/ros2/demos/blob/lyrical/intra_process_demo/README.md
 - name: Launch testing
   shortname: launch_testing
   description: ''
@@ -156,7 +156,7 @@ requirements:
   - feature
   links:
   - name: Launch testing examples
-    url: https://github.com/ros2/launch/blob/kilted/launch_testing/README.md#examples
+    url: https://github.com/ros2/launch/blob/lyrical/launch_testing/README.md#examples
 - name: Quality of Service Demos
   shortname: quality_of_service_d
   description: ''
@@ -255,7 +255,7 @@ requirements:
   - qos
   links:
   - name: Demo URL
-    url: https://github.com/ros2/demos/blob/kilted/quality_of_service_demo/README.md
+    url: https://github.com/ros2/demos/blob/lyrical/quality_of_service_demo/README.md
 - name: Lifecycle demo
   shortname: lifecycle_demo
   description: ''
@@ -283,7 +283,7 @@ requirements:
   - lifecycle
   links:
   - name: Reference URL
-    url: https://github.com/ros2/demos/blob/kilted/lifecycle/README.rst
+    url: https://github.com/ros2/demos/blob/lyrical/lifecycle/README.rst
 - name: Topic monitor
   shortname: topic_monitor
   description: ''
@@ -310,11 +310,11 @@ requirements:
     expect:
     - !Describe |
       You should see that the "reliable" topic has a reception rate that is almost always either 0 or 100%, while the "best effort" topic has a reception rate that fluctuates based on the strength of the connection.
-    - !Image https://raw.githubusercontent.com/ros2/demos/kilted/topic_monitor/doc/reliability_comparison.png
+    - !Image https://raw.githubusercontent.com/ros2/demos/lyrical/topic_monitor/doc/reliability_comparison.png
   labels:
   - executable
   - feature
   - topic_monitor
   links:
   - name: Reference URL
-    url: https://github.com/ros2/demos/blob/kilted/topic_monitor/README.md
+    url: https://github.com/ros2/demos/blob/lyrical/topic_monitor/README.md

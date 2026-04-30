@@ -174,4 +174,4 @@ requirements:
   - demos-py
   links:
   - name: Lifecycle Py
-    url: https://github.com/ros2/demos/tree/kilted/lifecycle_py
+    url: https://github.com/ros2/demos/tree/lyrical/lifecycle_py

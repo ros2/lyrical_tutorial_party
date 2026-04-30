@@ -258,7 +258,7 @@ requirements:
   - core
   links:
   - name: Installation instructions
-    url: https://docs.ros.org/en/kilted/Installation.html
+    url: https://docs.ros.org/en/lyrical/Installation.html
 - name: Local workspace overlay
   shortname: local_workspace_over
   description: |

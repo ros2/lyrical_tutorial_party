@@ -20,7 +20,7 @@ requirements:
   - docs
   links:
   - name: Alternatives page
-    url: https://docs.ros.org/en/kilted/Installation/Alternatives.html
+    url: https://docs.ros.org/en/lyrical/Installation/Alternatives.html
 - name: Latest Development Setup
   shortname: latest_development_s
   description: Check the documentation for the 'Latest Development Setup' page
@@ -43,7 +43,7 @@ requirements:
   - docs
   links:
   - name: Latest Development Setup page
-    url: https://docs.ros.org/en/kilted/Installation/Alternatives/Latest-Development-Setup.html
+    url: https://docs.ros.org/en/lyrical/Installation/Alternatives/Latest-Development-Setup.html
 - name: RHEL Development Setup
   shortname: rhel_development_set
   description: Check the documentation for the 'RHEL Development Setup' page
@@ -66,7 +66,7 @@ requirements:
   - docs
   links:
   - name: RHEL Development Setup page
-    url: https://docs.ros.org/en/kilted/Installation/Alternatives/RHEL-Development-Setup.html
+    url: https://docs.ros.org/en/lyrical/Installation/Alternatives/RHEL-Development-Setup.html
 - name: RHEL Install Binary
   shortname: rhel_install_binary
   description: Check the documentation for the 'RHEL Install Binary' page
@@ -89,7 +89,7 @@ requirements:
   - docs
   links:
   - name: RHEL Install Binary page
-    url: https://docs.ros.org/en/kilted/Installation/Alternatives/RHEL-Install-Binary.html
+    url: https://docs.ros.org/en/lyrical/Installation/Alternatives/RHEL-Install-Binary.html
 - name: Ubuntu Development Setup
   shortname: ubuntu_development_s
   description: Check the documentation for the 'Ubuntu Development Setup' page
@@ -112,7 +112,7 @@ requirements:
   - docs
   links:
   - name: Ubuntu Development Setup page
-    url: https://docs.ros.org/en/kilted/Installation/Alternatives/Ubuntu-Development-Setup.html
+    url: https://docs.ros.org/en/lyrical/Installation/Alternatives/Ubuntu-Development-Setup.html
 - name: Ubuntu Install Binary
   shortname: ubuntu_install_binar
   description: Check the documentation for the 'Ubuntu Install Binary' page
@@ -135,7 +135,7 @@ requirements:
   - docs
   links:
   - name: Ubuntu Install Binary page
-    url: https://docs.ros.org/en/kilted/Installation/Alternatives/Ubuntu-Install-Binary.html
+    url: https://docs.ros.org/en/lyrical/Installation/Alternatives/Ubuntu-Install-Binary.html
 - name: Windows Development Setup
   shortname: windows_development_
   description: Check the documentation for the 'Windows Development Setup' page
@@ -158,7 +158,7 @@ requirements:
   - docs
   links:
   - name: Windows Development Setup page
-    url: https://docs.ros.org/en/kilted/Installation/Alternatives/Windows-Development-Setup.html
+    url: https://docs.ros.org/en/lyrical/Installation/Alternatives/Windows-Development-Setup.html
 - name: macOS Development Setup
   shortname: mac_os_development_s
   description: Check the documentation for the 'macOS Development Setup' page
@@ -181,7 +181,7 @@ requirements:
   - docs
   links:
   - name: macOS Development Setup page
-    url: https://docs.ros.org/en/kilted/Installation/Alternatives/macOS-Development-Setup.html
+    url: https://docs.ros.org/en/lyrical/Installation/Alternatives/macOS-Development-Setup.html
 - name: RMW Implementations
   shortname: rmw_implementations
   description: Check the documentation for the 'RMW Implementations' page
@@ -204,7 +204,7 @@ requirements:
   - rmw-implementations
   links:
   - name: RMW Implementations page
-    url: https://docs.ros.org/en/kilted/Installation/RMW-Implementations.html
+    url: https://docs.ros.org/en/lyrical/Installation/RMW-Implementations.html
 - name: DDS Implementations
   shortname: dds_implementations
   description: Check the documentation for the 'DDS Implementations' page
@@ -227,7 +227,7 @@ requirements:
   - rmw-implementations
   links:
   - name: DDS Implementations page
-    url: https://docs.ros.org/en/kilted/Installation/RMW-Implementations/DDS-Implementations.html
+    url: https://docs.ros.org/en/lyrical/Installation/RMW-Implementations/DDS-Implementations.html
 - name: Working with RTI Connext DDS
   shortname: working_with_rti_con
   description: Check the documentation for the 'Working with RTI Connext DDS' page
@@ -250,7 +250,7 @@ requirements:
   - docs
   links:
   - name: Working with RTI Connext DDS page
-    url: https://docs.ros.org/en/kilted/Installation/RMW-Implementations/DDS-Implementations/Working-with-RTI-Connext-DDS.html
+    url: https://docs.ros.org/en/lyrical/Installation/RMW-Implementations/DDS-Implementations/Working-with-RTI-Connext-DDS.html
 - name: Working with Eclipse CycloneDDS
   shortname: working_with_eclipse
   description: Check the documentation for the 'Working with Eclipse CycloneDDS' page
@@ -273,7 +273,7 @@ requirements:
   - docs
   links:
   - name: Working with Eclipse CycloneDDS page
-    url: https://docs.ros.org/en/kilted/Installation/RMW-Implementations/DDS-Implementations/Working-with-Eclipse-CycloneDDS.html
+    url: https://docs.ros.org/en/lyrical/Installation/RMW-Implementations/DDS-Implementations/Working-with-Eclipse-CycloneDDS.html
 - name: Working with GurumNetworks GurumDDS
   shortname: working_with_gurum_n
   description: Check the documentation for the 'Working with GurumNetworks GurumDDS' page
@@ -296,7 +296,7 @@ requirements:
   - docs
   links:
   - name: Working with GurumNetworks GurumDDS page
-    url: https://docs.ros.org/en/kilted/Installation/RMW-Implementations/DDS-Implementations/Working-with-GurumNetworks-GurumDDS.html
+    url: https://docs.ros.org/en/lyrical/Installation/RMW-Implementations/DDS-Implementations/Working-with-GurumNetworks-GurumDDS.html
 - name: Working with eProsima Fast DDS
   shortname: working_with_e_prosi
   description: Check the documentation for the 'Working with eProsima Fast DDS' page
@@ -319,7 +319,7 @@ requirements:
   - docs
   links:
   - name: Working with eProsima Fast DDS page
-    url: https://docs.ros.org/en/kilted/Installation/RMW-Implementations/DDS-Implementations/Working-with-eProsima-Fast-DDS.html
+    url: https://docs.ros.org/en/lyrical/Installation/RMW-Implementations/DDS-Implementations/Working-with-eProsima-Fast-DDS.html
 - name: Non DDS Implementations
   shortname: non_dds_implementati
   description: Check the documentation for the 'Non DDS Implementations' page
@@ -342,7 +342,7 @@ requirements:
   - rmw-implementations
   links:
   - name: DDS Implementations page
-    url: https://docs.ros.org/en/kilted/Installation/RMW-Implementations/Non-DDS-Implementations.html
+    url: https://docs.ros.org/en/lyrical/Installation/RMW-Implementations/Non-DDS-Implementations.html
 - name: Working with Zenoh
   shortname: working_with_zenoh
   description: Check the documentation for the 'Working with Zenoh' page
@@ -366,7 +366,7 @@ requirements:
   - zenoh
   links:
   - name: Working with Zenoh page
-    url: https://docs.ros.org/en/kilted/Installation/RMW-Implementations/Non-DDS-Implementations/Working-with-Zenoh.html
+    url: https://docs.ros.org/en/lyrical/Installation/RMW-Implementations/Non-DDS-Implementations/Working-with-Zenoh.html
 - name: Maintaining a Source Checkout
   shortname: maintaining_a_source
   description: Check the documentation for the 'Maintaining a Source Checkout' page
@@ -388,7 +388,7 @@ requirements:
   - docs
   links:
   - name: Maintaining a Source Checkout page
-    url: https://docs.ros.org/en/kilted/Installation/Maintaining-a-Source-Checkout.html
+    url: https://docs.ros.org/en/lyrical/Installation/Maintaining-a-Source-Checkout.html
 - name: RHEL Install RPMs
   shortname: rhel_install_rp_ms
   description: Check the documentation for the 'RHEL Install RPMs' page
@@ -410,7 +410,7 @@ requirements:
   - docs
   links:
   - name: RHEL Install RPMs page
-    url: https://docs.ros.org/en/kilted/Installation/RHEL-Install-RPMs.html
+    url: https://docs.ros.org/en/lyrical/Installation/RHEL-Install-RPMs.html
 - name: Testing
   shortname: testing
   description: Check the documentation for the 'Testing' page
@@ -432,7 +432,7 @@ requirements:
   - docs
   links:
   - name: Testing page
-    url: https://docs.ros.org/en/kilted/Installation/Testing.html
+    url: https://docs.ros.org/en/lyrical/Installation/Testing.html
 - name: Ubuntu Install Debians
   shortname: ubuntu_install_debia
   description: Check the documentation for the 'Ubuntu Install Debians' page
@@ -454,7 +454,7 @@ requirements:
   - docs
   links:
   - name: Ubuntu Install Debians page
-    url: https://docs.ros.org/en/kilted/Installation/Ubuntu-Install-Debians.html
+    url: https://docs.ros.org/en/lyrical/Installation/Ubuntu-Install-Debians.html
 - name: Windows Install Binary
   shortname: windows_install_bina
   description: Check the documentation for the 'Windows Install Binary' page
@@ -476,7 +476,7 @@ requirements:
   - docs
   links:
   - name: Windows Install Binary page
-    url: https://docs.ros.org/en/kilted/Installation/Windows-Install-Binary.html
+    url: https://docs.ros.org/en/lyrical/Installation/Windows-Install-Binary.html
 - name: Advanced
   shortname: advanced
   description: Check the documentation for the 'Advanced' page
@@ -498,7 +498,7 @@ requirements:
   - docs
   links:
   - name: Advanced page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced.html
 - name: Allocator Template Tutorial
   shortname: allocator_template_t
   description: Check the documentation for the 'Allocator Template Tutorial' page
@@ -521,7 +521,7 @@ requirements:
   - docs
   links:
   - name: Allocator Template Tutorial page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Allocator-Template-Tutorial.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Allocator-Template-Tutorial.html
 - name: Discovery Server
   shortname: discovery_server
   description: Check the documentation for the 'Discovery Server' page
@@ -545,7 +545,7 @@ requirements:
   - docs
   links:
   - name: Discovery Server page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Discovery-Server/Discovery-Server.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Discovery-Server/Discovery-Server.html
 - name: FastDDS Configuration
   shortname: fast_dds_configurati
   description: Check the documentation for the 'FastDDS Configuration' page
@@ -568,7 +568,7 @@ requirements:
   - docs
   links:
   - name: FastDDS Configuration page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/FastDDS-Configuration.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/FastDDS-Configuration.html
 - name: Improved Dynamic Discovery
   shortname: improved_dynamic_dis
   description: Check the documentation for the 'Improved Dynamic Discovery' page
@@ -591,7 +591,7 @@ requirements:
   - docs
   links:
   - name: Improved Dynamic Discovery page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Improved-Dynamic-Discovery.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Improved-Dynamic-Discovery.html
 - name: ROS2 Tracing Trace and Analyze
   shortname: ros_2_tracing_trace_
   description: Check the documentation for the 'ROS2 Tracing Trace and Analyze' page
@@ -614,7 +614,7 @@ requirements:
   - docs
   links:
   - name: ROS2 Tracing Trace and Analyze page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/ROS2-Tracing-Trace-and-Analyze.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/ROS2-Tracing-Trace-and-Analyze.html
 - name: Reading From A Bag File CPP
   shortname: reading_from_a_bag_f
   description: Check the documentation for the 'Reading From A Bag File CPP' page
@@ -637,7 +637,7 @@ requirements:
   - docs
   links:
   - name: Reading From A Bag File CPP page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Reading-From-A-Bag-File-CPP.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Reading-From-A-Bag-File-CPP.html
 - name: Recording A Bag From Your Own Node CPP
   shortname: recording_a_bag_from
   description: Check the documentation for the 'Recording A Bag From Your Own Node CPP' page
@@ -660,7 +660,7 @@ requirements:
   - docs
   links:
   - name: Recording A Bag From Your Own Node CPP page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Recording-A-Bag-From-Your-Own-Node-CPP.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Recording-A-Bag-From-Your-Own-Node-CPP.html
 - name: Recording A Bag From Your Own Node Py
   shortname: recording_a_bag_fr_1
   description: Check the documentation for the 'Recording A Bag From Your Own Node Py' page
@@ -683,7 +683,7 @@ requirements:
   - docs
   links:
   - name: Recording A Bag From Your Own Node Py page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Recording-A-Bag-From-Your-Own-Node-Py.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Recording-A-Bag-From-Your-Own-Node-Py.html
 - name: Access Controls
   shortname: access_controls
   description: Check the documentation for the 'Access Controls' page
@@ -707,7 +707,7 @@ requirements:
   - docs
   links:
   - name: Access Controls page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Security/Access-Controls.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Security/Access-Controls.html
 - name: Deployment Guidelines
   shortname: deployment_guideline
   description: Check the documentation for the 'Deployment Guidelines' page
@@ -731,7 +731,7 @@ requirements:
   - docs
   links:
   - name: Deployment Guidelines page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Security/Deployment-Guidelines.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Security/Deployment-Guidelines.html
 - name: Examine Traffic
   shortname: examine_traffic
   description: Check the documentation for the 'Examine Traffic' page
@@ -755,7 +755,7 @@ requirements:
   - docs
   links:
   - name: Examine Traffic page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Security/Examine-Traffic.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Security/Examine-Traffic.html
 - name: Introducing ros2 security
   shortname: introducing_ros_2_se
   description: Check the documentation for the 'Introducing ros2 security' page
@@ -779,7 +779,7 @@ requirements:
   - docs
   links:
   - name: Introducing ros2 security page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Security/Introducing-ros2-security.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Security/Introducing-ros2-security.html
 - name: Security Main
   shortname: security_main
   description: Check the documentation for the 'Security Main' page
@@ -803,7 +803,7 @@ requirements:
   - docs
   links:
   - name: Security Main page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Security/Security-Main.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Security/Security-Main.html
 - name: Security on Two
   shortname: security_on_two
   description: Check the documentation for the 'Security on Two' page
@@ -827,7 +827,7 @@ requirements:
   - docs
   links:
   - name: Security on Two page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Security/Security-on-Two.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Security/Security-on-Two.html
 - name: The Keystore
   shortname: the_keystore
   description: Check the documentation for the 'The Keystore' page
@@ -851,7 +851,7 @@ requirements:
   - docs
   links:
   - name: The Keystore page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Security/The-Keystore.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Security/The-Keystore.html
 - name: Gazebo
   shortname: gazebo
   description: Check the documentation for the 'Gazebo' page
@@ -876,7 +876,7 @@ requirements:
   - docs
   links:
   - name: Gazebo page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Simulators/Gazebo/Gazebo.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Simulators/Gazebo/Gazebo.html
 - name: Simulation Gazebo
   shortname: simulation_gazebo
   description: Check the documentation for the 'Simulation Gazebo' page
@@ -901,7 +901,7 @@ requirements:
   - docs
   links:
   - name: Simulation Gazebo page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Simulators/Gazebo/Simulation-Gazebo.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Simulators/Gazebo/Simulation-Gazebo.html
 - name: Simulation Main
   shortname: simulation_main
   description: Check the documentation for the 'Simulation Main' page
@@ -925,7 +925,7 @@ requirements:
   - docs
   links:
   - name: Simulation Main page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Simulators/Simulation-Main.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Simulators/Simulation-Main.html
 - name: Installation MacOS
   shortname: installation_mac_os
   description: Check the documentation for the 'Installation MacOS' page
@@ -950,7 +950,7 @@ requirements:
   - docs
   links:
   - name: Installation MacOS page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Simulators/Webots/Installation-MacOS.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Simulators/Webots/Installation-MacOS.html
 - name: Installation Ubuntu
   shortname: installation_ubuntu
   description: Check the documentation for the 'Installation Ubuntu' page
@@ -975,7 +975,7 @@ requirements:
   - docs
   links:
   - name: Installation Ubuntu page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Simulators/Webots/Installation-Ubuntu.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Simulators/Webots/Installation-Ubuntu.html
 - name: Installation Windows
   shortname: installation_windows
   description: Check the documentation for the 'Installation Windows' page
@@ -1000,7 +1000,7 @@ requirements:
   - docs
   links:
   - name: Installation Windows page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Simulators/Webots/Installation-Windows.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Simulators/Webots/Installation-Windows.html
 - name: Setting Up Simulation Webots Advanced
   shortname: setting_up_simulatio
   description: Check the documentation for the 'Setting Up Simulation Webots Advanced' page
@@ -1025,7 +1025,7 @@ requirements:
   - docs
   links:
   - name: Setting Up Simulation Webots Advanced page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Simulators/Webots/Setting-Up-Simulation-Webots-Advanced.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Simulators/Webots/Setting-Up-Simulation-Webots-Advanced.html
 - name: Setting Up Simulation Webots Basic
   shortname: setting_up_simulat_1
   description: Check the documentation for the 'Setting Up Simulation Webots Basic' page
@@ -1050,7 +1050,7 @@ requirements:
   - docs
   links:
   - name: Setting Up Simulation Webots Basic page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Simulators/Webots/Setting-Up-Simulation-Webots-Basic.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Simulators/Webots/Setting-Up-Simulation-Webots-Basic.html
 - name: Simulation Reset Handler
   shortname: simulation_reset_han
   description: Check the documentation for the 'Simulation Reset Handler' page
@@ -1075,7 +1075,7 @@ requirements:
   - docs
   links:
   - name: Simulation Reset Handler page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Simulators/Webots/Simulation-Reset-Handler.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Simulators/Webots/Simulation-Reset-Handler.html
 - name: Simulation Supervisor
   shortname: simulation_superviso
   description: Check the documentation for the 'Simulation Supervisor' page
@@ -1100,7 +1100,7 @@ requirements:
   - docs
   links:
   - name: Simulation Supervisor page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Simulators/Webots/Simulation-Supervisor.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Simulators/Webots/Simulation-Supervisor.html
 - name: Simulation Webots
   shortname: simulation_webots
   description: Check the documentation for the 'Simulation Webots' page
@@ -1125,7 +1125,7 @@ requirements:
   - docs
   links:
   - name: Simulation Webots page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Simulators/Webots/Simulation-Webots.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Simulators/Webots/Simulation-Webots.html
 - name: Topic Statistics Tutorial
   shortname: topic_statistics_tut
   description: Check the documentation for the 'Topic Statistics Tutorial' page
@@ -1149,7 +1149,7 @@ requirements:
   - docs
   links:
   - name: Topic Statistics Tutorial page
-    url: https://docs.ros.org/en/kilted/Tutorials/Advanced/Topic-Statistics-Tutorial/Topic-Statistics-Tutorial.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Advanced/Topic-Statistics-Tutorial/Topic-Statistics-Tutorial.html
 - name: Beginner CLI Tools
   shortname: beginner_cli_tools
   description: Check the documentation for the 'Beginner CLI Tools' page
@@ -1171,7 +1171,7 @@ requirements:
   - docs
   links:
   - name: Beginner CLI Tools page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-CLI-Tools.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-CLI-Tools.html
 - name: Configuring ROS2 Environment
   shortname: configuring_ros_2_en
   description: Check the documentation for the 'Configuring ROS2 Environment' page
@@ -1194,7 +1194,7 @@ requirements:
   - docs
   links:
   - name: Configuring ROS2 Environment page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html
 - name: Introducing Turtlesim
   shortname: introducing_turtlesi
   description: Check the documentation for the 'Introducing Turtlesim' page
@@ -1218,7 +1218,7 @@ requirements:
   - docs
   links:
   - name: Introducing Turtlesim page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-CLI-Tools/Introducing-Turtlesim/Introducing-Turtlesim.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-CLI-Tools/Introducing-Turtlesim/Introducing-Turtlesim.html
 - name: Launching Multiple Nodes
   shortname: launching_multiple_n
   description: Check the documentation for the 'Launching Multiple Nodes' page
@@ -1242,7 +1242,7 @@ requirements:
   - docs
   links:
   - name: Launching Multiple Nodes page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-CLI-Tools/Launching-Multiple-Nodes/Launching-Multiple-Nodes.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-CLI-Tools/Launching-Multiple-Nodes/Launching-Multiple-Nodes.html
 - name: Recording And Playing Back Data
   shortname: recording_and_playin
   description: Check the documentation for the 'Recording And Playing Back Data' page
@@ -1266,7 +1266,7 @@ requirements:
   - docs
   links:
   - name: Recording And Playing Back Data page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-CLI-Tools/Recording-And-Playing-Back-Data/Recording-And-Playing-Back-Data.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-CLI-Tools/Recording-And-Playing-Back-Data/Recording-And-Playing-Back-Data.html
 - name: Understanding ROS2 Actions
   shortname: understanding_ros_2_
   description: Check the documentation for the 'Understanding ROS2 Actions' page
@@ -1290,7 +1290,7 @@ requirements:
   - docs
   links:
   - name: Understanding ROS2 Actions page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Actions/Understanding-ROS2-Actions.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Actions/Understanding-ROS2-Actions.html
 - name: Understanding ROS2 Nodes
   shortname: understanding_ros__1
   description: Check the documentation for the 'Understanding ROS2 Nodes' page
@@ -1314,7 +1314,7 @@ requirements:
   - docs
   links:
   - name: Understanding ROS2 Nodes page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Nodes/Understanding-ROS2-Nodes.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Nodes/Understanding-ROS2-Nodes.html
 - name: Understanding ROS2 Parameters
   shortname: understanding_ros__2
   description: Check the documentation for the 'Understanding ROS2 Parameters' page
@@ -1338,7 +1338,7 @@ requirements:
   - docs
   links:
   - name: Understanding ROS2 Parameters page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Parameters/Understanding-ROS2-Parameters.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Parameters/Understanding-ROS2-Parameters.html
 - name: Understanding ROS2 Services
   shortname: understanding_ros__3
   description: Check the documentation for the 'Understanding ROS2 Services' page
@@ -1362,7 +1362,7 @@ requirements:
   - docs
   links:
   - name: Understanding ROS2 Services page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Services/Understanding-ROS2-Services.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Services/Understanding-ROS2-Services.html
 - name: Understanding ROS2 Topics
   shortname: understanding_ros__4
   description: Check the documentation for the 'Understanding ROS2 Topics' page
@@ -1386,7 +1386,7 @@ requirements:
   - docs
   links:
   - name: Understanding ROS2 Topics page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html
 - name: Using Rqt Console
   shortname: using_rqt_console
   description: Check the documentation for the 'Using Rqt Console' page
@@ -1410,7 +1410,7 @@ requirements:
   - docs
   links:
   - name: Using Rqt Console page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-CLI-Tools/Using-Rqt-Console/Using-Rqt-Console.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-CLI-Tools/Using-Rqt-Console/Using-Rqt-Console.html
 - name: Beginner Client Libraries
   shortname: beginner_client_libr
   description: Check the documentation for the 'Beginner Client Libraries' page
@@ -1432,7 +1432,7 @@ requirements:
   - docs
   links:
   - name: Beginner Client Libraries page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-Client-Libraries.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-Client-Libraries.html
 - name: Colcon Tutorial
   shortname: colcon_tutorial
   description: Check the documentation for the 'Colcon Tutorial' page
@@ -1455,7 +1455,7 @@ requirements:
   - docs
   links:
   - name: Colcon Tutorial page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html
 - name: Creating A Workspace
   shortname: creating_a_workspace
   description: Check the documentation for the 'Creating A Workspace' page
@@ -1479,7 +1479,7 @@ requirements:
   - docs
   links:
   - name: Creating A Workspace page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html
 - name: Creating Your First ROS2 Package
   shortname: creating_your_first_
   description: Check the documentation for the 'Creating Your First ROS2 Package' page
@@ -1502,7 +1502,7 @@ requirements:
   - docs
   links:
   - name: Creating Your First ROS2 Package page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html
 - name: Custom ROS2 Interfaces
   shortname: custom_ros_2_interfa
   description: Check the documentation for the 'Custom ROS2 Interfaces' page
@@ -1525,7 +1525,7 @@ requirements:
   - docs
   links:
   - name: Custom ROS2 Interfaces page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-Client-Libraries/Custom-ROS2-Interfaces.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-Client-Libraries/Custom-ROS2-Interfaces.html
 - name: Getting Started With Ros2doctor
   shortname: getting_started_with
   description: Check the documentation for the 'Getting Started With Ros2doctor' page
@@ -1548,7 +1548,7 @@ requirements:
   - docs
   links:
   - name: Getting Started With Ros2doctor page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-Client-Libraries/Getting-Started-With-Ros2doctor.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-Client-Libraries/Getting-Started-With-Ros2doctor.html
 - name: Pluginlib
   shortname: pluginlib
   description: Check the documentation for the 'Pluginlib' page
@@ -1571,7 +1571,7 @@ requirements:
   - docs
   links:
   - name: Pluginlib page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-Client-Libraries/Pluginlib.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-Client-Libraries/Pluginlib.html
 - name: Single Package Define And Use Interface
   shortname: single_package_defin
   description: Check the documentation for the 'Single Package Define And Use Interface' page
@@ -1594,7 +1594,7 @@ requirements:
   - docs
   links:
   - name: Single Package Define And Use Interface page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-Client-Libraries/Single-Package-Define-And-Use-Interface.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-Client-Libraries/Single-Package-Define-And-Use-Interface.html
 - name: Using Parameters In A Class CPP
   shortname: using_parameters_in_
   description: Check the documentation for the 'Using Parameters In A Class CPP' page
@@ -1617,7 +1617,7 @@ requirements:
   - docs
   links:
   - name: Using Parameters In A Class CPP page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-Client-Libraries/Using-Parameters-In-A-Class-CPP.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-Client-Libraries/Using-Parameters-In-A-Class-CPP.html
 - name: Using Parameters In A Class Python
   shortname: using_parameters_i_1
   description: Check the documentation for the 'Using Parameters In A Class Python' page
@@ -1640,7 +1640,7 @@ requirements:
   - docs
   links:
   - name: Using Parameters In A Class Python page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-Client-Libraries/Using-Parameters-In-A-Class-Python.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-Client-Libraries/Using-Parameters-In-A-Class-Python.html
 - name: Writing A Simple Cpp Publisher And Subscriber
   shortname: writing_a_simple_cpp
   description: Check the documentation for the 'Writing A Simple Cpp Publisher And Subscriber' page
@@ -1663,7 +1663,7 @@ requirements:
   - docs
   links:
   - name: Writing A Simple Cpp Publisher And Subscriber page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Cpp-Publisher-And-Subscriber.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Cpp-Publisher-And-Subscriber.html
 - name: Writing A Simple Cpp Service And Client
   shortname: writing_a_simple_c_1
   description: Check the documentation for the 'Writing A Simple Cpp Service And Client' page
@@ -1686,7 +1686,7 @@ requirements:
   - docs
   links:
   - name: Writing A Simple Cpp Service And Client page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Cpp-Service-And-Client.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Cpp-Service-And-Client.html
 - name: Writing A Simple Py Publisher And Subscriber
   shortname: writing_a_simple_py_
   description: Check the documentation for the 'Writing A Simple Py Publisher And Subscriber' page
@@ -1709,7 +1709,7 @@ requirements:
   - docs
   links:
   - name: Writing A Simple Py Publisher And Subscriber page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Publisher-And-Subscriber.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Publisher-And-Subscriber.html
 - name: Writing A Simple Py Service And Client
   shortname: writing_a_simple_p_1
   description: Check the documentation for the 'Writing A Simple Py Service And Client' page
@@ -1732,7 +1732,7 @@ requirements:
   - docs
   links:
   - name: Writing A Simple Py Service And Client page
-    url: https://docs.ros.org/en/kilted/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Service-And-Client.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Service-And-Client.html
 - name: Demos
   shortname: demos
   description: Check the documentation for the 'Demos' page
@@ -1754,7 +1754,7 @@ requirements:
   - docs
   links:
   - name: Demos page
-    url: https://docs.ros.org/en/kilted/Tutorials/Demos.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Demos.html
 - name: Creating a content filtering subscription
   shortname: creating_a_content_f
   description: Check the documentation for the 'Creating a content filtering subscription' page
@@ -1777,7 +1777,7 @@ requirements:
   - docs
   links:
   - name: Creating a content filtering subscription page
-    url: https://docs.ros.org/en/kilted/Tutorials/Demos/Content-Filtering-Subscription.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Demos/Content-Filtering-Subscription.html
 - name: Setting up efficient intra-process communication
   shortname: setting_up_efficient
   description: Check the documentation for the 'Setting up efficient intra-process communication' page
@@ -1800,7 +1800,7 @@ requirements:
   - docs
   links:
   - name: Setting up efficient intra-process communication page
-    url: https://docs.ros.org/en/kilted/Tutorials/Demos/Intra-Process-Communication.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Demos/Intra-Process-Communication.html
 - name: Logging
   shortname: logging
   description: Check the documentation for the 'Logging' page
@@ -1823,7 +1823,7 @@ requirements:
   - docs
   links:
   - name: Logging page
-    url: https://docs.ros.org/en/kilted/Tutorials/Demos/Logging-and-logger-configuration.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Demos/Logging-and-logger-configuration.html
 - name: Managing nodes with managed lifecycles
   shortname: managing_nodes_with_
   description: Check the documentation for the 'Managing nodes with managed lifecycles' page
@@ -1846,7 +1846,7 @@ requirements:
   - docs
   links:
   - name: Managing nodes with managed lifecycles page
-    url: https://docs.ros.org/en/kilted/Tutorials/Demos/Managed-Nodes.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Demos/Managed-Nodes.html
 - name: Using quality-of-service settings for lossy networks
   shortname: using_quality_of_ser
   description: Check the documentation for the 'Using quality-of-service settings for lossy networks' page
@@ -1869,7 +1869,7 @@ requirements:
   - docs
   links:
   - name: Using quality-of-service settings for lossy networks page
-    url: https://docs.ros.org/en/kilted/Tutorials/Demos/Quality-of-Service.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Demos/Quality-of-Service.html
 - name: Understanding real-time programming
   shortname: understanding_real_t
   description: Check the documentation for the 'Understanding real-time programming' page
@@ -1892,7 +1892,7 @@ requirements:
   - docs
   links:
   - name: Understanding real-time programming page
-    url: https://docs.ros.org/en/kilted/Tutorials/Demos/Real-Time-Programming.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Demos/Real-Time-Programming.html
 - name: Configure service introspection
   shortname: configure_service_in
   description: Check the documentation for the 'Configure service introspection' page
@@ -1915,7 +1915,7 @@ requirements:
   - docs
   links:
   - name: Configure service introspection page
-    url: https://docs.ros.org/en/kilted/Tutorials/Demos/Service-Introspection.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Demos/Service-Introspection.html
 - name: Configure action introspection
   shortname: configure_action_int
   description: Check the documentation for the 'Configure action introspection' page
@@ -1938,7 +1938,7 @@ requirements:
   - docs
   links:
   - name: Configure action introspection page
-    url: https://docs.ros.org/en/kilted/Tutorials/Demos/Action-Introspection.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Demos/Action-Introspection.html
 - name: Experimenting with a dummy robot
   shortname: experimenting_with_a
   description: Check the documentation for the 'Experimenting with a dummy robot' page
@@ -1961,7 +1961,7 @@ requirements:
   - docs
   links:
   - name: Experimenting with a dummy robot page
-    url: https://docs.ros.org/en/kilted/Tutorials/Demos/dummy-robot-demo.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Demos/dummy-robot-demo.html
 - name: Wait for acknowledgment
   shortname: wait_for_acknowledgm
   description: Check the documentation for the 'Wait for acknowledgment' page
@@ -1984,7 +1984,7 @@ requirements:
   - docs
   links:
   - name: Wait for acknowledgment page
-    url: https://docs.ros.org/en/kilted/Tutorials/Demos/Wait-for-Acknowledgment.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Demos/Wait-for-Acknowledgment.html
 - name: Intermediate
   shortname: intermediate
   description: Check the documentation for the 'Intermediate' page
@@ -2006,7 +2006,7 @@ requirements:
   - docs
   links:
   - name: Intermediate page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate.html
 - name: Composition
   shortname: composition
   description: Check the documentation for the 'Composition' page
@@ -2029,7 +2029,7 @@ requirements:
   - docs
   links:
   - name: Composition page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Composition.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Composition.html
 - name: Creating an Action
   shortname: creating_an_action
   description: Check the documentation for the 'Creating an Action' page
@@ -2052,7 +2052,7 @@ requirements:
   - docs
   links:
   - name: Creating an Action page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Creating-an-Action.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Creating-an-Action.html
 - name: Creating Launch Files
   shortname: creating_launch_file
   description: Check the documentation for the 'Creating Launch Files' page
@@ -2076,7 +2076,7 @@ requirements:
   - docs
   links:
   - name: Creating Launch Files page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Launch/Creating-Launch-Files.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Launch/Creating-Launch-Files.html
 - name: Launch Main
   shortname: launch_main
   description: Check the documentation for the 'Launch Main' page
@@ -2100,7 +2100,7 @@ requirements:
   - docs
   links:
   - name: Launch Main page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Launch/Launch-Main.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Launch/Launch-Main.html
 - name: Launch system
   shortname: launch_system
   description: Check the documentation for the 'Launch system' page
@@ -2124,7 +2124,7 @@ requirements:
   - docs
   links:
   - name: Launch system page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Launch/Launch-system.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Launch/Launch-system.html
 - name: Using Event Handlers
   shortname: using_event_handlers
   description: Check the documentation for the 'Using Event Handlers' page
@@ -2148,7 +2148,7 @@ requirements:
   - docs
   links:
   - name: Using Event Handlers page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Launch/Using-Event-Handlers.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Launch/Using-Event-Handlers.html
 - name: Using ROS2 Launch For Large Projects
   shortname: using_ros_2_launch_f
   description: Check the documentation for the 'Using ROS2 Launch For Large Projects' page
@@ -2172,7 +2172,7 @@ requirements:
   - docs
   links:
   - name: Using ROS2 Launch For Large Projects page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Launch/Using-ROS2-Launch-For-Large-Projects.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Launch/Using-ROS2-Launch-For-Large-Projects.html
 - name: Using Substitutions
   shortname: using_substitutions
   description: Check the documentation for the 'Using Substitutions' page
@@ -2196,7 +2196,7 @@ requirements:
   - docs
   links:
   - name: Using Substitutions page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Launch/Using-Substitutions.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Launch/Using-Substitutions.html
 - name: Monitoring For Parameter Changes CPP
   shortname: monitoring_for_param
   description: Check the documentation for the 'Monitoring For Parameter Changes CPP' page
@@ -2219,7 +2219,7 @@ requirements:
   - docs
   links:
   - name: Monitoring For Parameter Changes CPP page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Monitoring-For-Parameter-Changes-CPP.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Monitoring-For-Parameter-Changes-CPP.html
 - name: Monitoring For Parameter Changes Python
   shortname: monitoring_for_par_1
   description: Check the documentation for the 'Monitoring For Parameter Changes Python' page
@@ -2242,7 +2242,7 @@ requirements:
   - docs
   links:
   - name: Monitoring For Parameter Changes Python page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Monitoring-For-Parameter-Changes-Python.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Monitoring-For-Parameter-Changes-Python.html
 - name: RViz Custom Display
   shortname: r_viz_custom_display
   description: Check the documentation for the 'RViz Custom Display' page
@@ -2267,7 +2267,7 @@ requirements:
   - docs
   links:
   - name: RViz Custom Display page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/RViz/RViz-Custom-Display/RViz-Custom-Display.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/RViz/RViz-Custom-Display/RViz-Custom-Display.html
 - name: RViz Main
   shortname: r_viz_main
   description: Check the documentation for the 'RViz Main' page
@@ -2291,7 +2291,7 @@ requirements:
   - docs
   links:
   - name: RViz Main page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/RViz/RViz-Main.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/RViz/RViz-Main.html
 - name: RViz User Guide
   shortname: r_viz_user_guide
   description: Check the documentation for the 'RViz User Guide' page
@@ -2316,7 +2316,7 @@ requirements:
   - docs
   links:
   - name: RViz User Guide page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/RViz/RViz-User-Guide/RViz-User-Guide.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/RViz/RViz-User-Guide/RViz-User-Guide.html
 - name: Rosdep
   shortname: rosdep
   description: Check the documentation for the 'Rosdep' page
@@ -2339,7 +2339,7 @@ requirements:
   - docs
   links:
   - name: Rosdep page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Rosdep.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Rosdep.html
 - name: CLI
   shortname: cli
   description: Check the documentation for the 'CLI' page
@@ -2363,7 +2363,7 @@ requirements:
   - docs
   links:
   - name: CLI page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Testing/CLI.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Testing/CLI.html
 - name: Cpp Testing
   shortname: cpp_testing
   description: Check the documentation for the 'Writing Basic Tests with C++ with GTest' page
@@ -2387,7 +2387,7 @@ requirements:
   - docs
   links:
   - name: Writing Basic Tests with C++ with GTest
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Testing/Cpp.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Testing/Cpp.html
 - name: Python
   shortname: python
   description: Check the documentation for the 'Python' page
@@ -2411,7 +2411,7 @@ requirements:
   - docs
   links:
   - name: Python page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Testing/Python.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Testing/Python.html
 - name: Testing Main
   shortname: testing_main
   description: Check the documentation for the 'Testing Main' page
@@ -2435,7 +2435,7 @@ requirements:
   - docs
   links:
   - name: Testing Main page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Testing/Testing-Main.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Testing/Testing-Main.html
 - name: Adding A Frame Cpp
   shortname: adding_a_frame_cpp
   description: Check the documentation for the 'Adding A Frame Cpp' page
@@ -2459,7 +2459,7 @@ requirements:
   - docs
   links:
   - name: Adding A Frame Cpp page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Tf2/Adding-A-Frame-Cpp.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Tf2/Adding-A-Frame-Cpp.html
 - name: Adding A Frame Py
   shortname: adding_a_frame_py
   description: Check the documentation for the 'Adding A Frame Py' page
@@ -2483,7 +2483,7 @@ requirements:
   - docs
   links:
   - name: Adding A Frame Py page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Tf2/Adding-A-Frame-Py.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Tf2/Adding-A-Frame-Py.html
 - name: Debugging Tf2 Problems
   shortname: debugging_tf_2_probl
   description: Check the documentation for the 'Debugging Tf2 Problems' page
@@ -2507,7 +2507,7 @@ requirements:
   - docs
   links:
   - name: Debugging Tf2 Problems page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Tf2/Debugging-Tf2-Problems.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Tf2/Debugging-Tf2-Problems.html
 - name: Introduction To Tf2
   shortname: introduction_to_tf_2
   description: Check the documentation for the 'Introduction To Tf2' page
@@ -2531,7 +2531,7 @@ requirements:
   - docs
   links:
   - name: Introduction To Tf2 page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Tf2/Introduction-To-Tf2.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Tf2/Introduction-To-Tf2.html
 - name: Learning About Tf2 And Time Cpp
   shortname: learning_about_tf_2_
   description: Check the documentation for the 'Using time (C++)' page
@@ -2555,7 +2555,7 @@ requirements:
   - docs
   links:
   - name: Using time (C++) page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Tf2/Learning-About-Tf2-And-Time-Cpp.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Tf2/Learning-About-Tf2-And-Time-Cpp.html
 - name: Quaternion Fundamentals
   shortname: quaternion_fundament
   description: Check the documentation for the 'Quaternion Fundamentals' page
@@ -2579,7 +2579,7 @@ requirements:
   - docs
   links:
   - name: Quaternion Fundamentals page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Tf2/Quaternion-Fundamentals.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Tf2/Quaternion-Fundamentals.html
 - name: Tf2 Main
   shortname: tf_2_main
   description: Check the documentation for the 'Tf2 Main' page
@@ -2603,7 +2603,7 @@ requirements:
   - docs
   links:
   - name: Tf2 Main page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Tf2/Tf2-Main.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Tf2/Tf2-Main.html
 - name: Traveling in time (C++)
   shortname: traveling_in_time_(c
   description: Check the documentation for the 'Traveling in time (C++)' page
@@ -2627,7 +2627,7 @@ requirements:
   - docs
   links:
   - name: Traveling in time (C++) page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Tf2/Time-Travel-With-Tf2-Cpp.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Tf2/Time-Travel-With-Tf2-Cpp.html
 - name: Using stamped datatypes with tf2_ros::MessageFilter
   shortname: using_stamped_dataty
   description: Check the documentation for the 'Using stamped datatypes with tf2_ros::MessageFilter' page
@@ -2651,7 +2651,7 @@ requirements:
   - docs
   links:
   - name: Using stamped datatypes with tf2_ros::MessageFilter page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Tf2/Using-Stamped-Datatypes-With-Tf2-Ros-MessageFilter.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Tf2/Using-Stamped-Datatypes-With-Tf2-Ros-MessageFilter.html
 - name: Writing A Tf2 Broadcaster Cpp
   shortname: writing_a_tf_2_broad
   description: Check the documentation for the 'Writing A Tf2 Broadcaster Cpp' page
@@ -2675,7 +2675,7 @@ requirements:
   - docs
   links:
   - name: Writing A Tf2 Broadcaster Cpp page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Tf2/Writing-A-Tf2-Broadcaster-Cpp.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Tf2/Writing-A-Tf2-Broadcaster-Cpp.html
 - name: Writing A Tf2 Broadcaster Py
   shortname: writing_a_tf_2_bro_1
   description: Check the documentation for the 'Writing A Tf2 Broadcaster Py' page
@@ -2699,7 +2699,7 @@ requirements:
   - docs
   links:
   - name: Writing A Tf2 Broadcaster Py page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Tf2/Writing-A-Tf2-Broadcaster-Py.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Tf2/Writing-A-Tf2-Broadcaster-Py.html
 - name: Writing A Tf2 Listener Cpp
   shortname: writing_a_tf_2_liste
   description: Check the documentation for the 'Writing A Tf2 Listener Cpp' page
@@ -2723,7 +2723,7 @@ requirements:
   - docs
   links:
   - name: Writing A Tf2 Listener Cpp page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Tf2/Writing-A-Tf2-Listener-Cpp.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Tf2/Writing-A-Tf2-Listener-Cpp.html
 - name: Writing A Tf2 Listener Py
   shortname: writing_a_tf_2_lis_1
   description: Check the documentation for the 'Writing A Tf2 Listener Py' page
@@ -2747,7 +2747,7 @@ requirements:
   - docs
   links:
   - name: Writing A Tf2 Listener Py page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Tf2/Writing-A-Tf2-Listener-Py.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Tf2/Writing-A-Tf2-Listener-Py.html
 - name: Writing A Tf2 Static Broadcaster Cpp
   shortname: writing_a_tf_2_stati
   description: Check the documentation for the 'Writing A Tf2 Static Broadcaster Cpp' page
@@ -2771,7 +2771,7 @@ requirements:
   - docs
   links:
   - name: Writing A Tf2 Static Broadcaster Cpp page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Tf2/Writing-A-Tf2-Static-Broadcaster-Cpp.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Tf2/Writing-A-Tf2-Static-Broadcaster-Cpp.html
 - name: Writing A Tf2 Static Broadcaster Py
   shortname: writing_a_tf_2_sta_1
   description: Check the documentation for the 'Writing A Tf2 Static Broadcaster Py' page
@@ -2795,7 +2795,7 @@ requirements:
   - docs
   links:
   - name: Writing A Tf2 Static Broadcaster Py page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Tf2/Writing-A-Tf2-Static-Broadcaster-Py.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Tf2/Writing-A-Tf2-Static-Broadcaster-Py.html
 - name: Adding Physical and Collision Properties to a URDF Model
   shortname: adding_physical_and_
   description: Check the documentation for the 'Adding Physical and Collision Properties to a URDF Model' page
@@ -2819,7 +2819,7 @@ requirements:
   - docs
   links:
   - name: Adding Physical and Collision Properties to a URDF Model page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/URDF/Adding-Physical-and-Collision-Properties-to-a-URDF-Model.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/URDF/Adding-Physical-and-Collision-Properties-to-a-URDF-Model.html
 - name: Building a Movable Robot Model with URDF
   shortname: building_a_movable_r
   description: Check the documentation for the 'Building a Movable Robot Model with URDF' page
@@ -2843,7 +2843,7 @@ requirements:
   - docs
   links:
   - name: Building a Movable Robot Model with URDF page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/URDF/Building-a-Movable-Robot-Model-with-URDF.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/URDF/Building-a-Movable-Robot-Model-with-URDF.html
 - name: Building a Visual Robot Model with URDF from Scratch
   shortname: building_a_visual_ro
   description: Check the documentation for the 'Building a Visual Robot Model with URDF from Scratch' page
@@ -2867,7 +2867,7 @@ requirements:
   - docs
   links:
   - name: Building a Visual Robot Model with URDF from Scratch page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/URDF/Building-a-Visual-Robot-Model-with-URDF-from-Scratch.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/URDF/Building-a-Visual-Robot-Model-with-URDF-from-Scratch.html
 - name: Exporting an URDF File
   shortname: exporting_an_urdf_fi
   description: Check the documentation for the 'Exporting an URDF File' page
@@ -2891,7 +2891,7 @@ requirements:
   - docs
   links:
   - name: Exporting an URDF File page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/URDF/Exporting-an-URDF-File.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/URDF/Exporting-an-URDF-File.html
 - name: URDF Main
   shortname: urdf_main
   description: Check the documentation for the 'URDF Main' page
@@ -2915,7 +2915,7 @@ requirements:
   - docs
   links:
   - name: URDF Main page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/URDF/URDF-Main.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/URDF/URDF-Main.html
 - name: Using URDF with Robot State Publisher
   shortname: using_urdf_with_robo
   description: Check the documentation for the 'Using URDF with Robot State Publisher' page
@@ -2939,7 +2939,7 @@ requirements:
   - docs
   links:
   - name: Using URDF with Robot State Publisher page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/URDF/Using-URDF-with-Robot-State-Publisher.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/URDF/Using-URDF-with-Robot-State-Publisher.html
 - name: Using Xacro to Clean Up a URDF File
   shortname: using_xacro_to_clean
   description: Check the documentation for the 'Using Xacro to Clean Up a URDF File' page
@@ -2963,7 +2963,7 @@ requirements:
   - docs
   links:
   - name: Using Xacro to Clean Up a URDF File page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/URDF/Using-Xacro-to-Clean-Up-a-URDF-File.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/URDF/Using-Xacro-to-Clean-Up-a-URDF-File.html
 - name: Writing a Composable Node
   shortname: writing_a_composable
   description: Check the documentation for the 'Writing a Composable Node' page
@@ -2986,7 +2986,7 @@ requirements:
   - docs
   links:
   - name: Writing a Composable Node page
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Writing-a-Composable-Node.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Writing-a-Composable-Node.html
 - name: Writing an Action Server and Client (Cpp)
   shortname: writing_an_action_se
   description: Check the documentation for the 'Writing an action server and client' page
@@ -3010,7 +3010,7 @@ requirements:
   - docs
   links:
   - name: Writing an action server and client (C++)
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Writing-an-Action-Server-Client/Cpp.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Writing-an-Action-Server-Client/Cpp.html
 - name: Writing an Action Server and Client (Python)
   shortname: writing_an_action__1
   description: Check the documentation for the 'Writing an action server and client' page
@@ -3034,7 +3034,7 @@ requirements:
   - docs
   links:
   - name: Writingan action server and client (Python)
-    url: https://docs.ros.org/en/kilted/Tutorials/Intermediate/Writing-an-Action-Server-Client/Py.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Intermediate/Writing-an-Action-Server-Client/Py.html
 - name: Miscellaneous
   shortname: miscellaneous
   description: Check the documentation for the 'Miscellaneous' page
@@ -3056,7 +3056,7 @@ requirements:
   - docs
   links:
   - name: Miscellaneous page
-    url: https://docs.ros.org/en/kilted/Tutorials/Miscellaneous.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Miscellaneous.html
 - name: Building ROS2 Package with eclipse 2021 06
   shortname: building_ros_2_packa
   description: Check the documentation for the 'Building ROS2 Package with eclipse 2021 06' page
@@ -3079,7 +3079,7 @@ requirements:
   - docs
   links:
   - name: Building ROS2 Package with eclipse 2021 06 page
-    url: https://docs.ros.org/en/kilted/Tutorials/Miscellaneous/Building-ROS2-Package-with-eclipse-2021-06.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Miscellaneous/Building-ROS2-Package-with-eclipse-2021-06.html
 - name: Building Realtime rt_preempt kernel for ROS 2
   shortname: building_realtime_rt
   description: Check the documentation for the 'Building Realtime rt_preempt kernel for ROS 2' page
@@ -3102,7 +3102,7 @@ requirements:
   - docs
   links:
   - name: Building Realtime rt_preempt kernel for ROS 2 page
-    url: https://docs.ros.org/en/kilted/Tutorials/Miscellaneous/Building-Realtime-rt_preempt-kernel-for-ROS-2.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Miscellaneous/Building-Realtime-rt_preempt-kernel-for-ROS-2.html
 - name: Deploying ROS 2 on IBM Cloud
   shortname: deploying_ros_2_on_i
   description: Check the documentation for the 'Deploying ROS 2 on IBM Cloud' page
@@ -3125,7 +3125,7 @@ requirements:
   - docs
   links:
   - name: Deploying ROS 2 on IBM Cloud page
-    url: https://docs.ros.org/en/kilted/Tutorials/Miscellaneous/Deploying-ROS-2-on-IBM-Cloud.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Miscellaneous/Deploying-ROS-2-on-IBM-Cloud.html
 - name: Eclipse Oxygen with ROS 2 and rviz2
   shortname: eclipse_oxygen_with_
   description: Check the documentation for the 'Eclipse Oxygen with ROS 2 and rviz2' page
@@ -3148,4 +3148,4 @@ requirements:
   - docs
   links:
   - name: Eclipse Oxygen with ROS 2 and rviz2 page
-    url: https://docs.ros.org/en/kilted/Tutorials/Miscellaneous/Eclipse-Oxygen-with-ROS-2-and-rviz2.html
+    url: https://docs.ros.org/en/lyrical/Tutorials/Miscellaneous/Eclipse-Oxygen-with-ROS-2-and-rviz2.html
