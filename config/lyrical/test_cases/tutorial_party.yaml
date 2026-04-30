@@ -14,9 +14,9 @@ test_cases_builders:
         - binary
         - source
       os:
-        - noble
-        - windows
-        - rhel 9
+        - resolute
+        - windows11
+        - rhel 10
       chip:
         - amd64
         - arm64
