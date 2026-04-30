@@ -25,7 +25,7 @@ Each ticket will have the following sections:
       * `binary`: pre-built packaged ROS 2 workspace from [the releases page](https://github.com/ros2/ros2/releases/tag/release-lyrical-beta-20260429-1)
       * `debian`: pre-built debian packages from the apt repository
       * `source`: building your own workspace from source
-   3. Os: `Ubuntu Resolut`, `Windows 11` and `RHEL-10`
+   3. Os: `Ubuntu Resolute`, `Windows 11` and `RHEL-10`
    4. Chip: `Amd64` or `Arm64`
 2. **Links**: Any relevant references for this test.
 3. **Checks**: A list of functionalities to validate.
@@ -52,6 +52,36 @@ The goal is to close all tickets after successful validation. But we would like 
 
 * RHEL 10
 
+## Filters by Setup
+
+### Ubuntu Resolute 26.04
+* AMD64
+  * [resolute / amd64 / fastdds](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20resolute%22%20label%3A%22chip%3A%20amd64%22%20label%3A%22rmw%3A%20fastdds%22%20label%3Atutorials)
+  * [resolute / amd64 / cyclone](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20resolute%22%20label%3A%22chip%3A%20amd64%22%20label%3A%22rmw%3A%20cyclone%22%20label%3Atutorials)
+  * [resolute / amd64 / zenoh](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20resolute%22%20label%3A%22chip%3A%20amd64%22%20label%3A%22rmw%3A%20zenoh%22%20label%3Atutorials)
+  * [resolute / amd64 / connext](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20resolute%22%20label%3A%22chip%3A%20amd64%22%20label%3A%22rmw%3A%20connext%22%20label%3Atutorials)
+* ARM64
+  * [resolute / arm64 / fastdds](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20resolute%22%20label%3A%22chip%3A%20arm64%22%20label%3A%22rmw%3A%20fastdds%22%20label%3Atutorials)
+  * [resolute / arm64 / cyclone](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20resolute%22%20label%3A%22chip%3A%20arm64%22%20label%3A%22rmw%3A%20cyclone%22%20label%3Atutorials)
+  * [resolute / arm64 / zenoh](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20resolute%22%20label%3A%22chip%3A%20arm64%22%20label%3A%22rmw%3A%20zenoh%22%20label%3Atutorials)
+  * [resolute / arm64 / connext](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20resolute%22%20label%3A%22chip%3A%20arm64%22%20label%3A%22rmw%3A%20connext%22%20label%3Atutorials)
+### RedHat 10
+* AMD64
+  * [rhel10 / amd64 / fastdds](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20rhel%2010%22%20label%3A%22chip%3A%20amd64%22%20label%3A%22rmw%3A%20fastdds%22%20label%3Atutorials)
+  * [rhel10 / amd64 / cyclone](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20rhel%2010%22%20label%3A%22chip%3A%20amd64%22%20label%3A%22rmw%3A%20cyclone%22%20label%3Atutorials)
+  * [rhel10 / amd64 / zenoh](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20rhel%2010%22%20label%3A%22chip%3A%20amd64%22%20label%3A%22rmw%3A%20zenoh%22%20label%3Atutorials)
+  * [rhel10 / amd64 / connext](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20rhel%2010%22%20label%3A%22chip%3A%20amd64%22%20label%3A%22rmw%3A%20connext%22%20label%3Atutorials)
+* ARM64
+  * [rhel10 / arm64 / fastdds](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20rhel%2010%22%20label%3A%22chip%3A%20arm64%22%20label%3A%22rmw%3A%20fastdds%22%20label%3Atutorials)
+  * [rhel10 / arm64 / cyclone](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20rhel%2010%22%20label%3A%22chip%3A%20arm64%22%20label%3A%22rmw%3A%20cyclone%22%20label%3Atutorials)
+  * [rhel10 / arm64 / zenoh](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20rhel%2010%22%20label%3A%22chip%3A%20arm64%22%20label%3A%22rmw%3A%20zenoh%22%20label%3Atutorials)
+  * [rhel10 / arm64 / connext](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20rhel%2010%22%20label%3A%22chip%3A%20arm64%22%20label%3A%22rmw%3A%20connext%22%20label%3Atutorials)
+###  Windows 11
+* AMD64
+  * [windows11 / amd64 / fastdds](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20windows11%22%20label%3A%22chip%3A%20amd64%22%20label%3A%22rmw%3A%20fastdds%22%20label%3Atutorials)
+  * [windows11 / amd64 / cyclone](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20windows11%22%20label%3A%22chip%3A%20amd64%22%20label%3A%22rmw%3A%20cyclone%22%20label%3Atutorials)
+  * [windows11 / amd64 / zenoh](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20windows11%22%20label%3A%22chip%3A%20amd64%22%20label%3A%22rmw%3A%20zenoh%22%20label%3Atutorials)
+  * [windows11 / amd64 / connext](https://github.com/ros2/lyrical_tutorial_party/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22os%3A%20windows11%22%20label%3A%22chip%3A%20amd64%22%20label%3A%22rmw%3A%20connext%22%20label%3Atutorials)
 
 ## What if I want to test something else?
 
