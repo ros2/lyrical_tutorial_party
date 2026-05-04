@@ -80,11 +80,11 @@ test_cases_builders:
       - !Exclude
           all_labels: [cyclone, windows11]
           negate: false
-      - !Include
-          all_labels: [zenoh, windows11, binary]
+      - !Exclude
+          all_labels: [zenoh, windows11, source]
           negate: false
       - !Exclude
-          all_labels: [zenoh, windows11]
+          all_labels: [zenoh, windows11, debian]
           negate: false
       - !Exclude
           all_labels: [connext, windows11]
