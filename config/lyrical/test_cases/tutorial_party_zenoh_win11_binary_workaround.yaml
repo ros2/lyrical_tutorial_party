@@ -1,0 +1,63 @@
+test_cases_builders:
+  - name: Tutorial Party zenoh + windows11 + binary workaround
+    shortname: tutorial_party_zbw_workaround
+    description: "Tutorial Party - explicitly include Zenoh binaries on windows 11"
+    minimum_permutations_to_render: 0
+    permutations:
+      rmw:
+        - zenoh
+      buildType:
+        - binary
+      os:
+        - windows11
+      chip:
+        - amd64
+    set:
+      - !Include
+          all_labels: [core]
+          negate: false
+      - !Include
+          all_labels: [feature]
+          negate: false
+      - !Exclude
+          all_labels: [docs]
+          negate: false
+      - !Exclude
+          any_names: [Installation instructions]
+          negate: false
+      - !Exclude
+          any_names: [Sane development environment]
+          negate: false
+      - !Exclude
+          any_names: [Launch system]
+          negate: false
+      - !Exclude
+          any_names: [Webots]
+          negate: false
+      - !Exclude
+          any_names: [Deploying ROS 2 on IBM Cloud]
+          negate: false
+      - !Exclude
+          any_names: [Security on Two]
+          negate: false
+      - !Exclude
+          any_names: [Eclipse Oxygen with ROS 2 and rviz2]
+          negate: false
+      - !Exclude
+          any_names: [Building Realtime rt_preempt kernel for ROS 2]
+          negate: false
+      - !Exclude
+          any_names: [Releasing a ROS 2 package with bloom]
+          negate: false
+      - !Exclude
+          any_names: [Rosbag with ROS1 Bridge]
+          negate: false
+      - !Exclude
+          any_names: [Ignition]
+          negate: false
+      - !Exclude
+          any_names: [Local workspace overlay]
+          negate: false
+      - !Exclude
+          any_names: [Check ROS 2 security CLI on Linux]
+          negate: false

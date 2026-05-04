@@ -6,6 +6,9 @@ on:
   pull_request:
     # branches: [ main, master ]
 
+env:
+  CONFIG_PATH: config/lyrical/test-case.config.yaml
+
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -36,7 +39,17 @@ jobs:
         run: cargo build --release
         working-directory: yatm-v2
 
+      - name: Substitute repo info
+        run: |
+          sed -i "s/repo_owner: .*/repo_owner: ${{ github.repository_owner }}/" ${{ env.CONFIG_PATH }}
+          sed -i "s/repo_name: .*/repo_name: ${{ github.event.repository.name }}/" ${{ env.CONFIG_PATH }}
+
       - name: Validate YATM Config
         run: |
           ../../yatm-v2/target/release/yatm_v2 github validate -c test-case.config.yaml
         working-directory: config/lyrical
+      - name: Dry-run Sync YATM Issues
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ./yatm-v2/target/release/yatm_v2 github upload -c ${{ env.CONFIG_PATH }} --dry-run
