@@ -102,10 +102,13 @@ test_cases_builders:
           all_labels: [cyclone, binary]
           negate: false
       - !Exclude
-          all_labels: [zenoh, binary]
+          all_labels: [zenoh, binary, resolute]
+          negate: false
+      - !Exclude
+          all_labels: [zenoh, binary, rhel10]
           negate: false
       - !Include
-          all_labels: [zenoh, windows11, binary]
+          all_labels: [zenoh, binary, windows11]
           negate: false
       - !Exclude
           all_labels: ['rhel 10', debian]
