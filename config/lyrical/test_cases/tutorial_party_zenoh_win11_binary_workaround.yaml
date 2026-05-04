@@ -13,6 +13,12 @@ test_cases_builders:
       chip:
         - amd64
     set:
+      - !Include
+          all_labels: [core]
+          negate: false
+      - !Include
+          all_labels: [feature]
+          negate: false
       - !Exclude
           all_labels: [docs]
           negate: false
