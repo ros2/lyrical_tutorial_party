@@ -81,10 +81,7 @@ test_cases_builders:
           all_labels: [cyclone, windows11]
           negate: false
       - !Exclude
-          all_labels: [zenoh, windows11, source]
-          negate: false
-      - !Exclude
-          all_labels: [zenoh, windows11, debian]
+          all_labels: [zenoh, windows11]
           negate: false
       - !Exclude
           all_labels: [connext, windows11]
@@ -106,6 +103,9 @@ test_cases_builders:
           negate: false
       - !Exclude
           all_labels: [zenoh, binary]
+          negate: false
+      - !Include
+          all_labels: [zenoh, windows11, binary]
           negate: false
       - !Exclude
           all_labels: ['rhel 10', debian]
