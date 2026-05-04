@@ -1,0 +1,18 @@
+test_cases_builders:
+  - name: Tutorial Party zenoh + windows11 + binary workaround
+    shortname: tutorial_party_zbw_workaround
+    description: "Tutorial Party - explicitly include Zenoh binaries on windows 11"
+    minimum_permutations_to_render: 0
+    permutations:
+      rmw:
+        - zenoh
+      buildType:
+        - binary
+      os:
+        - windows11
+      chip:
+        - amd64
+    set:
+      - !Include
+          all_labels: [zenoh, windows11, binary, amd64]
+          negate: false
