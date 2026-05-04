@@ -58,3 +58,6 @@ test_cases_builders:
       - !Exclude
           any_names: [Local workspace overlay]
           negate: false
+      - !Exclude
+          any_names: [Check ROS 2 security CLI on Linux]
+          negate: false
