@@ -22,3 +22,36 @@ test_cases_builders:
       - !Exclude
           all_labels: [docs]
           negate: false
+      - !Exclude
+          any_names: [Installation instructions]
+          negate: false
+      - !Exclude
+          any_names: [Sane development environment]
+          negate: false
+      - !Exclude
+          any_names: [Launch system]
+          negate: false
+      - !Exclude
+          any_names: [Webots]
+          negate: false
+      - !Exclude
+          any_names: [Deploying ROS 2 on IBM Cloud]
+          negate: false
+      - !Exclude
+          any_names: [Security on Two]
+          negate: false
+      - !Exclude
+          any_names: [Eclipse Oxygen with ROS 2 and rviz2]
+          negate: false
+      - !Exclude
+          any_names: [Building Realtime rt_preempt kernel for ROS 2]
+          negate: false
+      - !Exclude
+          any_names: [Releasing a ROS 2 package with bloom]
+          negate: false
+      - !Exclude
+          any_names: [Rosbag with ROS1 Bridge]
+          negate: false
+      - !Exclude
+          any_names: [Ignition]
+          negate: false
