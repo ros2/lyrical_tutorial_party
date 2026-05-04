@@ -83,6 +83,9 @@ test_cases_builders:
       - !Exclude
           all_labels: [zenoh, windows11]
           negate: false
+      - !Include
+          all_labels: [zenoh, windows11, binary]
+          negate: false
       - !Exclude
           all_labels: [connext, windows11]
           negate: false
