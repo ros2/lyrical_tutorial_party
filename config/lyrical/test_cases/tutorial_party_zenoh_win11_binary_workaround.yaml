@@ -13,6 +13,6 @@ test_cases_builders:
       chip:
         - amd64
     set:
-      - !Include
-          all_labels: [zenoh, windows11, binary, amd64]
+      - !Exclude
+          all_labels: [docs]
           negate: false
