@@ -1,6 +1,6 @@
 generation: 1
-repo_owner: tfoote
-repo_name: ros2_test_cases
+repo_owner: ros2
+repo_name: lyrical_tutorial_party
 workspace_version: 0.0.1
 yatm_v2_version: 1.0.0
 requirements_dirs: [requirements]
