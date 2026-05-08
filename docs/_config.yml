@@ -22,7 +22,7 @@ title: ROS 2 Lyrical Luth Tutorial Party Progress
 # email: [EMAIL_ADDRESS]
 description: >- # this means to ignore newlines until "baseurl:"
   Progress on the ROS 2 Lyrical Luth Tutorial Party.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/lyrical_tutorial_party" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: openrobotics
 # github_username:  ros2
