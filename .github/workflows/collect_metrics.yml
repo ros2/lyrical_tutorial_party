@@ -1,0 +1,67 @@
+name: Collect Daily Metrics
+
+on:
+  schedule:
+    - cron: '0 1 * * *' # Runs nightly at 00:00 UTC
+  workflow_dispatch:
+
+env:
+  CONFIG_PATH: config/lyrical/test-case.config.yaml
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout ros2_test_cases
+        uses: actions/checkout@v4
+
+      - name: Checkout yatm-v2
+        uses: actions/checkout@v4
+        with:
+          repository: paudrow/yatm-v2
+          ref: improved_metrics
+          path: yatm-v2
+
+      - name: Setup Rust
+        uses: actions-rust-lang/setup-rust-toolchain@v1
+        with:
+          cache-workdir: yatm-v2
+      - name: Cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            yatm-v2/target
+          key: ${{ runner.os }}-cargo-${{ hashFiles('yatm-v2/**/Cargo.lock') }}
+      - name: Build yatm-v2
+        run: cargo build --release
+        working-directory: yatm-v2
+
+      - name: Substitute repo info
+        run: |
+          sed -i "s/repo_owner: .*/repo_owner: ${{ github.repository_owner }}/" ${{ env.CONFIG_PATH }}
+          sed -i "s/repo_name: .*/repo_name: ${{ github.event.repository.name }}/" ${{ env.CONFIG_PATH }}
+
+      - name: Validate YATM Config
+        run: |
+          ../../yatm-v2/target/release/yatm_v2 github validate -c test-case.config.yaml
+        working-directory: config/lyrical
+      - name: Collect Metrics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ./yatm-v2/target/release/yatm_v2 github metrics -c ${{ env.CONFIG_PATH }} --report docs/_posts/
+      - name: Commit and push new report
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/_posts
+          if git diff --quiet --cached; then
+            echo "No new metrics to commit"
+          else
+            git commit -m "Updating daily metrics [skip ci]"
+            git push origin HEAD:${{ github.ref_name || 'main' }}
+          fi
