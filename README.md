@@ -6,7 +6,9 @@ In other words, welcome to the Tutorial Party!
 The tutorial party will run between April 30th, 2026 and May 14, 2026 (inclusive).
 Testing after that is welcome, but will not be included in the official statistics.
 
-ℹ️ Full details about the [Test and Tutorial Party are available on Open Robotics Discourse.](TODO) ℹ️
+ℹ️ Full details about the [Test and Tutorial Party are available on Open Robotics Discourse.]([TODO](https://discourse.openrobotics.org/t/lyrical-luth-test-and-tutorial-party-instructions/54427)) ℹ️
+
+📈 [Progress Dashboard](http://www.ros2.org/lyrical_tutorial_party/) 📈
 
 ## Who can contribute?
 
