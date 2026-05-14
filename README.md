@@ -77,6 +77,6 @@ If you would like to test the functionality of any other package or extend the c
 
 ## Questions
 
-Questions related to testing may be posted on the [Discussions](https://github.com/orgs/ros2/projects/79/views/1) board.
+Questions related to testing may be posted on the [Discussions](https://discourse.openrobotics.org/) board.
 Kindly ensure to link the relevant issue ticket when starting a new discussion.
 You are also welcome to come hang out on our [Zulip server](https://openrobotics.zulipchat.com/#topics/channel/594223-Lyrical-Luth-testing-party) in the `#Lyrical-Luth-testing-party` channel. 
