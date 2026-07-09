@@ -1,3 +1,5 @@
+# Archived with the release complete
+
 # ROS 2 Lyrical Tutorial Party
 
 Welcome! The purpose of this repository is to guide the testing of various functionalities of ROS 2 Lyrical Luth prior to official release.
